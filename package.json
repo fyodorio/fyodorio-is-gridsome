@@ -2,6 +2,7 @@
   "name": "fyodorio-is-gridsome",
   "private": true,
   "scripts": {
+    "start": "npm run develop",
     "build": "gridsome build",
     "develop": "gridsome develop",
     "explore": "gridsome explore"
