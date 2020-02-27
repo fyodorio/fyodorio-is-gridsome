@@ -5,7 +5,7 @@ published: true
 description: JavaScript Heroes Aren't Born. They're Built. Whose Side Are You On?
 cover_image: https://thepracticaldev.s3.amazonaws.com/i/ipzz0meg3hkftg1ebcon.png
 tags: [angular, react, vue, javascript]
-canonical_url: false
+canonical_url: https://fyodor.io/marvelous-frameworks/
 series: false
 ---
 

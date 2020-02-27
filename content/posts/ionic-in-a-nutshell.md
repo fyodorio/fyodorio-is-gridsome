@@ -5,7 +5,7 @@ published: true
 description: What is Ionic Framework? Get into cross-platform development with web technologies
 cover_image: https://ionicframework.com/img/meta/ionic-framework-og.png
 tags: [ionic, angular, react, vue]
-canonical_url: false
+canonical_url: https://fyodor.io/ionic-in-a-nutshell/
 series: false
 ---
 
