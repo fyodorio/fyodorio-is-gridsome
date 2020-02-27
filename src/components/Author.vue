@@ -12,8 +12,9 @@
 		</p>
 
 		<p class="author__links">
-			<a href="//twitter.com/fyodorio">Follow on Twitter</a>
+			<a href="//twitter.com/fyodorio">Twitter</a>
 			<a href="//github.com/fyodorio">GitHub</a>
+			<a href="//https://dev.to/fyodorio">DEV</a>
 		</p>
 
 	</div>

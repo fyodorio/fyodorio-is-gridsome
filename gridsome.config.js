@@ -5,8 +5,8 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-  siteName: 'Fyodor',
-  siteDescription: 'Moving as fast as JavaScript',
+  siteName: 'Fyodor On Software',
+  siteDescription: 'Exploring Planet JavaScript',
 
   templates: {
     Post: '/:title',
