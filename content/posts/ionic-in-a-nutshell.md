@@ -56,9 +56,8 @@ It's the tool that the Ionic team uses to build their web components comprising 
 Previous versions of Ionic were built to be used with (AngularJS and then) Angular framework. Ionic 4 became framework-agnostic by using web components for its library and delegating all the logic and routing to other UI frameworks, or even vanilla-JS solutions and tools. So now, you can use it with React and Vue or import its components to your application as is.
 
 1. ### How to get more information about Ionic?
-You can head over to 
     * [Official site](https://ionicframework.com)
     * [Community forum](https://forum.ionicframework.com)
     * [Slack channel](http://ionicworldwide.herokuapp.com)
         
-*If you have any additional questions about the framework or its tools, feel free to ask in comments. I'll try to answer them and add the info to the post so it could help potential Ionic developers to get a solid grasp on the technology and move further with the learning process. Also please feel free to correct me if I'd made any mistakes in explanation, or I could formulate it in a better way.*
+*If you have any additional questions about the framework or its tools, feel free to [ask in comments](https://dev.to/fyodorio/ionic-in-a-nutshell-pm8). I'll try to answer them and add the info to the post so it could help potential Ionic developers to get a solid grasp on the technology and move further with the learning process. Also please feel free to correct me if I'd made any mistakes in explanation, or I could formulate it in a better way.*
