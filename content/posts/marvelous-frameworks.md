@@ -1,6 +1,6 @@
 ---
 title: Marvelous Frameworks
-date: 2019-01-25
+date: 2020-01-25
 published: true
 description: JavaScript Heroes Aren't Born. They're Built. Whose Side Are You On?
 cover_image: https://thepracticaldev.s3.amazonaws.com/i/ipzz0meg3hkftg1ebcon.png

@@ -1,6 +1,6 @@
 ---
 title: Ionic In A Nutshell
-date: 2019-01-11
+date: 2020-01-11
 published: true
 description: What is Ionic Framework? Get into cross-platform development with web technologies
 cover_image: https://ionicframework.com/img/meta/ionic-framework-og.png

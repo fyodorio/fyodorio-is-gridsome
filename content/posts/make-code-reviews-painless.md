@@ -1,6 +1,6 @@
 ---
 title: Make code reviews painless
-date: 2019-02-14
+date: 2020-02-14
 published: true
 description: Use code review guidelines to make team collaboration effective and nice
 cover_image: https://dev-to-uploads.s3.amazonaws.com/i/lwiasifixq3y6zinra9r.jpg
