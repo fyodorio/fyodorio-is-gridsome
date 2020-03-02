@@ -112,7 +112,7 @@ So the more populous the team, the more rate of time investment return we get fr
 At first sight there are hardly any CONs of using Nx and one could dive into it with open arms. But after some time from migration start, one can face (and should prepare to) a noticeable row of issues.
 
 * Nx introduces an additional set of rather strict opinions over already extensive Angular's one. The mental burden can be quite heavy, though bearable if you have a decent project documentation
-* Your projects would need to have a decent documentation or things can get out of control very fast. Code review processes should be well-established and as detailed as possible.
+* Your projects would need to have a decent documentation or things can get out of control very fast. Code review processes should be well-established and as detailed as possible
 * Even though there are regulating guidelines and conventions, some details depend on the project and team specifics. You need to spend time within your team to agree on naming and pipelines for working with the codebase. And a separate box of time to get used to the agreed approaches
 * Ridiculously deep nesting can get a developer confused and angry quite often. As each application and library has extensive configuration and a separate place for everything your code traveling distance in an IDE or editor rises significantly
 * A vast number of project files overload a developer machine. IDE indexing can get quite slow, as well as code analysis and all the similar processes. If you'll need to make a global refactoring, get some popcorn prepared
