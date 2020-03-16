@@ -15,46 +15,58 @@ I want to indicate from the very beginning that I'm neither an interested party 
 
 A lot of Angular fears come from unawareness and surfaced biases, so I'm aiming to fix that with this post, at least partially.
 
-The fear of Angular starts with confusion about its versions: Google made a bunch of [strange decisions](http://blog.angularjs.org/2016/09/angular2-final.html) when they were releasing Angular v.2 and leaving Angular(JS) 1.x live its own life. We can just cope with it. Nevertheless, today [the Angular](https://en.wikipedia.org/wiki/Angular_(web_framework)) is just Angular and we're gonna talk here only about Angular 2+ version family.
+The fear of Angular starts with confusion about its versions: Google made a bunch of [strange decisions](http://blog.angularjs.org/2016/09/angular2-final.html) when they were releasing Angular v.2 and leaving Angular(JS) 1.x live its own life. We can just cope with it. Nevertheless, today [the Angular](https://en.wikipedia.org/wiki/Angular_(web_framework) is just Angular and we're gonna talk here only about Angular 2+ version family.
 
-So let's go straight to the specific components of the Angular monstrosity myth and smash them to smithereens.
+So let's jump straight to the specific components of the Angular monstrosity myth and smash them to smithereens.
 
-* *DULLNESS*. Angular is not buzzwordy framework, it just works. And by the way, it works basically with any buzzword around there, but usually it doesn't need any unicorns to drive it forward. Elm is cool, Angular is not. And even though Elm is really cool, it's hardly a comparable pair of technologies these days, at least in terms of adoption in modern web application development.
-* *HUGENESS*. Angular way - all tools included
-    * But modular and tree-shakeable, so you can go a minimalist way
-    * Not Angular is monolithic and huge but applications on top of it, and that's basically is just custom HTML, CSS and TypeScript
-    * Lazy loading
-        * By routes
-        * By components/features (>9)
-* *COMPLEXITY* 
-    * Learning curve
-        * easier to switch from Angular to React and Vue than vice versa
-    * TypeScript
-        * No specific syntax like JSX ofr TSX
-        * Type safety even in templates (>9)
-    * RxJS
-    * Separation of concerns 
-        * Templates, stylesheets and business logic are in different files in most cases
-        * Clear separation of components, template directive, services and utilities by purposes
-    * Angular CLI and schematics
-        * Help a lot in making things right
-    * Good architectural patterns
-    * Best security approaches
-    * Great implementation of dynamic forms
-    * Great animations abstraction
-    * Coding best practices
-* *LACK OF DEMAND*
-    * Angular application development market is great for passionate problem solvers
-    * Lots of high-paid jobs and gigs out there (though some of them claim for high developer seniority level)
-    * Great for team work
-        * Happy families are all alike; every unhappy family is unhappy in its own way. (Leo Tolstoy)
-        * Angular developers are all alike; every React/Vue developer is a developer in its own way.
-* *LACK OF SUPPORT* 
-    * Great helpful community
-        * Popular community movements play a bad role in Angular adoption, like the instance with State of JS survey
-* *FINAL THOUGHTS* 
-    * “The trouble about man is twofold. He cannot learn truths which are too complicated; he forgets truths which are too simple.” ― Rebecca West
-    * Software development is not easy actually, but Angular covers it all. Learn it and you're dangerous already.
-    * So pick the technology that makes you happy, and give yourself an opportunity to find it.
+#### Dullness 
+Angular is not a buzzwordy framework, it just works. And by the way, it works basically with any buzzword around there, but usually it doesn't need any unicorns to drive it forward. "Elm/ReasonML/Elixir is cool, Angular is not." Well, probably. But even though Elm is really cool, it's hardly a comparable pair of technologies these days, at least in terms of adoption in modern web application development.
+    
+#### Hugeness
+Angular way - all tools included
+* But modular and tree-shakeable, so you can go a minimalist way
+* Not Angular is monolithic and huge but applications on top of it, and that's basically is just custom HTML, CSS and TypeScript
+* Lazy loading
+    * By routes
+    * By components/features (>9)
+    
+#### Complexity
+* Learning curve
+    * easier to switch from Angular to React and Vue than vice versa
+* TypeScript
+    * No specific syntax like JSX ofr TSX
+    * Type safety even in templates (>9)
+* RxJS
+* Separation of concerns 
+    * Templates, stylesheets and business logic are in different files in most cases
+    * Clear separation of components, template directive, services and utilities by purposes
+* Angular CLI and schematics
+    * Help a lot in making things right
+* Good architectural patterns
+* Best security approaches
+* Great implementation of dynamic forms
+* Great animations abstraction
+* Coding best practices
+
+#### Lack Of Demand
+* Angular application development market is great for passionate problem solvers
+* Lots of high-paid jobs and gigs out there (though some of them claim for high developer seniority level)
+* Great for team work
+    * Happy families are all alike; every unhappy family is unhappy in its own way. (Leo Tolstoy)
+    * Angular developers are all alike; every React/Vue developer is a developer in its own way.
+    
+#### Lack of support
+* Documentation is not the strongest part of it but it's getting better
+* Great helpful community
+    * Popular community movements play a bad role in Angular adoption, like the instance with State of JS survey
+    
+### Final Thoughts 
+As [Rebecca West](https://en.wikipedia.org/wiki/Rebecca_West) phrased it years ago, "The trouble about man is twofold. He cannot learn truths which are too complicated; he forgets truths which are too simple.”
+
+No framework or technology will satisfy all the different developers on that planet, be it a relatively easy-to-learn Vue, or a die-hard Angular, or whatever shiny new thing you can meet tomorrow. 
+
+Software development is not easy actually, but Angular covers it all and helps a developer to make right decisions in hard-to-crack situations. Learn it and you're dangerous enough already to go into this cruel world and make it a little better place to consume web applications.
+
+And in any case, pick the technology that makes you happy, and give yourself an opportunity to find it by refusing to being biased.
     
 _Cover photo by [Deleece Cook](https://unsplash.com/@deleece) on Unsplash_
