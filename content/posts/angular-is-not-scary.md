@@ -20,7 +20,7 @@ The fear of Angular starts with confusion about its versions: Google made a bunc
 So let's jump straight to the specific components of the Angular monstrosity myth and smash them to smithereens.
 
 #### Dullness 
-Angular is not a buzzwordy framework, it just works. And by the way, it works basically with any buzzword around there, but usually it doesn't need any unicorns to drive it forward. "Elm/ReasonML/Elixir is cool, Angular is not." Well, probably. But even though Elm is really cool, it's hardly a comparable pair of technologies these days, at least in terms of adoption in modern web application development.
+Angular is not a buzzwordy framework, it just works. And by the way, it works basically with any buzzword around there, but usually it doesn't need any unicorns to drive it forward. "Elm/ReasonML/Elixir/[Insert-Your-Option-Tech] is cool, Angular is not." Well, probably. But even though Elm is really cool, it's hardly a comparable pair of technologies these days, at least in terms of adoption in modern web application development.
     
 #### Hugeness
 Angular way - all tools included
