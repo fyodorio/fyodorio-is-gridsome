@@ -116,6 +116,11 @@ query Post ($id: ID!) {
       max-width: none;
     }
   }
+
+  &__content > p:first-child {
+    font-size: 1.2em;
+    color: var(--title-color);
+  }
 }
 
 .post-comments {
