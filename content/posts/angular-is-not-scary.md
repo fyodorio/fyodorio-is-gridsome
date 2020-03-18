@@ -1,6 +1,6 @@
 ---
 title: Angular is not scary
-date: 2020-03-16
+date: 2020-03-18
 published: true
 description: There are many scary things in the world today. Angular framework is not one of them, and here is why.
 cover_image: https://res.cloudinary.com/fyodorio/image/upload/w_1000,h_420,c_fill,g_auto/v1584173614/deleece-cook-Sbzdce7DucU-unsplash_cnwvyl.jpg
@@ -25,7 +25,7 @@ Angular is not a buzzwordy framework; it just works. And by the way, it works ba
  
 #### Hugeness
 
-Angular is a batteries-included framework. Its approach to front-end web development is providing all the tools needed to create a full-fledged web application UI/UX. That's why some people think that it's huge, in comparison with UI libraries like React or Vue. 
+Angular is a batteries-included framework. Its approach to front-end web development is providing all the tools needed to create a full-fledged web application UI/UX. That's why some people think that it's huge, in comparison with UI libraries like [React](https://reactjs.org) or Vue. 
 
 But essentially you can use only the stuff you need currently, and you'll get a convenient compact scaffolding around your view components, just as with pure React and Vue usage examples. In another case, you can get substantial construction out of Angular's implementations of a router, forms (excellent dynamic and declarative approach), animations (comprehensive abstractions and tools), and whatnot. Moreover, you'll have a tree-shakeable solution with lazy-loadable routes, modules, or even components, so you can go a minimalist way. Additionally, each new Angular version makes the framework and applications built with it [smaller and faster](https://medium.com/abc-software-development/angular-9-faster-and-smaller-64fc21eaf760). 
 
@@ -53,7 +53,7 @@ Some people say that React developers are in demand on the job market worldwide.
 
 The Angular application development market is great for passionate problem solvers, for getting a really valuable experience. In most cases, Angular applications are large and challenging. They engage different computer science areas, like working with big data and data visualization, complex dynamic forms and tricky animations, intricate state management, and many other stuff. So having such experience under the belt, you'll never be lost in unemployment. As for salaries, it greatly depends on the country, but in general, compensation is comparable for different specializations, so you are not going to lose in this money game.
 
-On top of that, Angular is great for teamwork. [Leo Tolstoy](https://en.wikipedia.org/wiki/Leo_Tolstoy) once said, "Happy families are all alike; every unhappy family is unhappy in its own way." I would rephrase that to "Angular developers are all alike; every React/Vue developer is a developer in its own way." So if you are working with Angular, you find a common ground easier with your peers than in case of any other framework. I've already mentioned this opinionated best practices approach, and it shows off very well, especially the larger the team is.
+On top of that, Angular is great for teamwork. [Leo Tolstoy](https://en.wikipedia.org/wiki/Leo_Tolstoy) once said, _"Happy families are all alike; every unhappy family is unhappy in its own way."_ I would rephrase that to _"Angular developers are all alike; every React/Vue developer is a developer in its own way."_ So if you are working with Angular, you find a common ground easier with your peers than in case of any other framework. I've already mentioned this opinionated best practices approach, and it shows off very well, especially the larger the team is.
  
 #### Lack of support
 
@@ -62,7 +62,7 @@ Documentation is (arguably) not the strongest part of Angular. It's complicated,
 Talking about help from peer developers, you cannot ignore the great vibrant [Angular community](https://dev.to/angular). Its members are really open for help, conferences and courses bring high value. It's a big friendly family, and it's a big thing that stops me personally from entirely switching to other frameworks and technologies.
  
 ### Final Thoughts 
-As [Rebecca West](https://en.wikipedia.org/wiki/Rebecca_West) phrased it years ago, "The trouble about man is twofold. He cannot learn truths which are too complicated; he forgets truths which are too simple."
+As [Rebecca West](https://en.wikipedia.org/wiki/Rebecca_West) phrased it years ago, _"The trouble about man is twofold. He cannot learn truths which are too complicated; he forgets truths which are too simple."_
 
 No framework or technology is going to satisfy all the different developers on that planet, be it a relatively easy-to-learn Vue, or a die-hard Angular, or whatever shiny new thing you can meet tomorrow. 
 
