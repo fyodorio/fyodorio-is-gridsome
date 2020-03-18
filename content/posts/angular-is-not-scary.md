@@ -23,7 +23,11 @@ So let's jump straight to the specific components of the Angular monstrosity myt
 Angular is not a buzzwordy framework, it just works. And by the way, it works basically with any buzzword around there, but usually it doesn't need any unicorns to drive it forward. "Elm/ReasonML/Elixir/[Insert-Your-Option-Tech] is cool, Angular is not." Well, probably. But even though Elm is really cool, it's hardly a comparable pair of technologies these days, at least in terms of adoption in modern web application development.
     
 #### Hugeness
-Angular way - all tools included
+Angular is a battaries-included framework. Its approach to front-end web development is providing all the tools needed to create a full-fledged web application UI/UX. That's why some people think that it's huge, in comparison with UI libraries like React or Vue. 
+
+But essentially you can use only the stuff you need currently and you'll get a compact convinient scaffolding around your view components, just as with pure Reat and Vue usage exapmles. In other case, you can get very solid construction out of Angular's implementations of router, forms, animations, and whatnot. Moreover, you'll have a tree-shakeable solution with lazzy-loadable routes, modules or even components, so you can totally go a minimalst way.
+
+Not Angular is monolithic and huge. It's always a developer's responsibility what you'll get from the application that uses Angular
 * But modular and tree-shakeable, so you can go a minimalist way
 * Not Angular is monolithic and huge but applications on top of it, and that's basically is just custom HTML, CSS and TypeScript
 * Lazy loading
