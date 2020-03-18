@@ -11,7 +11,7 @@ series: false
 
 I would like to dispel a myth prevailing among web developers, especially the younger ones (I already see people shouting "OK boomer!" at me), and those who didn't work with the hero of occasion to be familiar enough with it. The myth about monstrosity of the [Angular](https://angular.io) framework.
 
-I want to indicate from the very beginning that I'm neither an interested party here nor opinionated Angular fan. It's not my favourite web or [front-end framework](https://fyodor.io/marvelous-frameworks/) (confession: I'm in love with [Vue.js](https://vuejs.org)). Moreover, I'm a big fan of [frameworkless movement](http://frameworklessmovement.org). But as soon as many of us (including myself) work in teams and need to use common toolsets, a framework is usually a part of our work day. 
+I want to indicate from the very beginning that I'm neither an interested party here nor an opinionated Angular fan. It's not my favourite web or [front-end framework](https://fyodor.io/marvelous-frameworks/) (confession: I'm in love with [Vue.js](https://vuejs.org)). Moreover, I'm a big fan of [frameworkless movement](http://frameworklessmovement.org). But as soon as many of us (including myself) work in teams and need to use common toolsets, a framework is usually a part of our workday. 
 
 A lot of Angular fears come from unawareness and surfaced biases, so I'm aiming to fix that with this post, at least partially.
 
@@ -23,16 +23,11 @@ So let's jump straight to the specific components of the Angular monstrosity myt
 Angular is not a buzzwordy framework, it just works. And by the way, it works basically with any buzzword around there, but usually it doesn't need any unicorns to drive it forward. "Elm/ReasonML/Elixir/[Insert-Your-Option-Tech] is cool, Angular is not." Well, probably. But even though Elm is really cool, it's hardly a comparable pair of technologies these days, at least in terms of adoption in modern web application development.
     
 #### Hugeness
-Angular is a battaries-included framework. Its approach to front-end web development is providing all the tools needed to create a full-fledged web application UI/UX. That's why some people think that it's huge, in comparison with UI libraries like React or Vue. 
+Angular is a batteries-included framework. Its approach to front-end web development is providing all the tools needed to create a full-fledged web application UI/UX. That's why some people think that it's huge, in comparison with UI libraries like React or Vue. 
 
-But essentially you can use only the stuff you need currently and you'll get a compact convinient scaffolding around your view components, just as with pure Reat and Vue usage exapmles. In other case, you can get very solid construction out of Angular's implementations of router, forms, animations, and whatnot. Moreover, you'll have a tree-shakeable solution with lazzy-loadable routes, modules or even components, so you can totally go a minimalst way.
+But essentially you can use only the stuff you need currently and you'll get a compact convenient scaffolding around your view components, just as with pure React and Vue usage examples. In another case, you can get very solid construction out of Angular's implementations of router, forms, animations, and whatnot. Moreover, you'll have a tree-shakeable solution with lazy-loadable routes, modules or even components, so you can totally go a minimalist way. Additionally, each new Angular version makes the framework and applications built with it [smaller and faster](https://medium.com/abc-software-development/angular-9-faster-and-smaller-64fc21eaf760). 
 
-Not Angular is monolithic and huge. It's always a developer's responsibility what you'll get from the application that uses Angular
-* But modular and tree-shakeable, so you can go a minimalist way
-* Not Angular is monolithic and huge but applications on top of it, and that's basically is just custom HTML, CSS and TypeScript
-* Lazy loading
-    * By routes
-    * By components/features (>9)
+It is not Angular that makes applications monolithic and huge. It's always a developer's responsibility what he'll get from the stuff he codes.
     
 #### Complexity
 * Learning curve
