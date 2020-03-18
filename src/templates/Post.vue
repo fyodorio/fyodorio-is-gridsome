@@ -103,9 +103,10 @@ query Post ($id: ID!) {
       margin-top: 0;
     }
 
-    p:first-of-type {
-      font-size: 1.2em;
-      color: var(--title-color);
+    li {
+      ul, p {
+        margin-bottom: 0.6em;
+      }
     }
 
     img {
@@ -114,6 +115,11 @@ query Post ($id: ID!) {
       display: block;
       max-width: none;
     }
+  }
+
+  &__content > p:first-child {
+    font-size: 1.2em;
+    color: var(--title-color);
   }
 }
 
