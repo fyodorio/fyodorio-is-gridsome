@@ -16,8 +16,7 @@
     </main>
 
     <footer class="footer">
-      <span class="footer__copyright">Copyright © {{ new Date().getFullYear() }}. </span>
-      <span class="footer__links">Powered by <a href="//gridsome.org"> Gridsome </a></span>
+      <small class="footer__copyright">Copyright &copy; {{ new Date().getFullYear() }} fyodor.io</small>
     </footer>
 
   </div>
@@ -73,13 +72,5 @@ export default {
   padding: calc(var(--space) / 2);
   text-align: center;
   font-size: .8em;
-
-  > span {
-    margin: 0 .35em;
-  }
-
-  a {
-    color: currentColor;
-  }
 }
 </style>
