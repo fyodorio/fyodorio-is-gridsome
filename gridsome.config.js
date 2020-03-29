@@ -6,7 +6,7 @@
 
 module.exports = {
   siteName: 'Fyodor On Software',
-  siteDescription: 'Exploring Planet JavaScript',
+  siteDescription: 'Solving problems in web and mobile app development',
 
   templates: {
     Post: '/:title',
