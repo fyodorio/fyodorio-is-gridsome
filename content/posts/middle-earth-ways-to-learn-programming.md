@@ -39,7 +39,7 @@ A [workshop](https://en.wikipedia.org/wiki/Training_workshop) is basically focus
 
 ![Conferences like in Army of the Dead](https://res.cloudinary.com/fyodorio/image/upload/w_860,h_450,c_fill,g_auto/v1585988010/middle-earth-learning/conference_fkhier.jpg)
 
-Conferences are great both for speakers and listeners. A speaker validates and bullet-proofs their experience. A listener invests in learning the most modern industry practices and useful networking with like-minded people. Or they can leave with nothing and be humiliated. 50/50. But if one is an extrovert, they'll have a great time and make new friends, and probably their career will benefit from it in the most unexpected way. 
+Conferences are great both for speakers and listeners. A speaker validates and bulletproofs their experience. A listener invests in learning the most modern industry practices and useful networking with like-minded people. Or they can leave with nothing and be humiliated. 50/50. But if one is an extrovert, they'll have a great time and make new friends, and probably their career will benefit from it in the most unexpected way. 
 
 ## Hackathons
 
