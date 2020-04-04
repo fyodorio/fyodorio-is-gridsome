@@ -65,6 +65,14 @@ export default {
   padding: 1.5vw 15px 0;
 }
 
+// make content box full-width when on mobile
+@media screen and (max-width: 650px) {
+  .main {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
 .footer {
   display: flex;
   align-items: center;
