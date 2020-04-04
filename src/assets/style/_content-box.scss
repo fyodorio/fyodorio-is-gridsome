@@ -10,9 +10,10 @@
   transition: transform .3s, background-color .3s, box-shadow .6s;
 }
 
-// remove bottom border radius when on mobile when on mobile
+// remove bottom border radius and shadow when on mobile
 @media screen and (max-width: 650px) {
 	.content-box {
 		border-radius: 0;
+		box-shadow: none;
 	}
 }

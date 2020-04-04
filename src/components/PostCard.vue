@@ -72,7 +72,7 @@ export default {
   }
 }
 
-// remove top border radius when on mobile when on mobile
+// remove top border radius when on mobile
 @media screen and (max-width: 650px) {
   .post-card__header {
     border-radius: 0;
