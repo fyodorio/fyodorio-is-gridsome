@@ -123,6 +123,13 @@ query Post ($id: ID!) {
   }
 }
 
+// remove top border radius when on mobile when on mobile
+@media screen and (max-width: 650px) {
+  .post__header {
+    border-radius: 0;
+  }
+}
+
 .post-comments {
   padding: calc(var(--space) / 2);
 

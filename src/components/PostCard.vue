@@ -71,4 +71,11 @@ export default {
     z-index: 0;
   }
 }
+
+// remove top border radius when on mobile when on mobile
+@media screen and (max-width: 650px) {
+  .post-card__header {
+    border-radius: 0;
+  }
+}
 </style>
