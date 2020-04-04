@@ -12,32 +12,32 @@ series: false
 I love [The Hobbit](https://en.wikipedia.org/wiki/The_Hobbit_(film_series)) and [The Lord Of The Rings](https://en.wikipedia.org/wiki/The_Lord_of_the_Rings_(film_series)). The [Tolkien](https://en.wikipedia.org/wiki/J._R._R._Tolkien)'s Middle-earth universe is such an awesome place to be, at least in dreams. There's so much inspiration in all the characters inhabiting it. And so much to learn from: courage, responsibility, curiosity, trust, friendship, whatnot. But today I'm going to draw a slightly comic analogy between some movie episodes and ways one can learn programming. Many a true word is spoken in jest, so lets take a look at learning processes from a different angle and see, which one is more suitable for each of us.  
 
 ## Self Teaching
-![Self Teaching](https://res.cloudinary.com/fyodorio/image/upload/w_860,h_450,c_fill,g_auto/v1585988009/middle-earth-learning/solo_learning_lukzkq.jpg)
+![Self Teaching Like Bilbo loves](https://res.cloudinary.com/fyodorio/image/upload/w_860,h_450,c_fill,g_auto/v1585988009/middle-earth-learning/solo_learning_lukzkq.jpg)
 
 [...]
 
 ## Pair Programming
-![Pair Programming](https://res.cloudinary.com/fyodorio/image/upload/w_860,h_450,c_fill,g_auto/v1585988009/middle-earth-learning/pair_programming_y5h1yd.jpg)
+![Pair Programming Like Gollum practiced](https://res.cloudinary.com/fyodorio/image/upload/w_860,h_450,c_fill,g_auto/v1585988009/middle-earth-learning/pair_programming_y5h1yd.jpg)
 
 [...]
 
 ## Workshops
-![Workshopsn](https://res.cloudinary.com/fyodorio/image/upload/w_860,h_450,c_fill,g_auto/v1585988010/middle-earth-learning/workshop_dbhgtw.jpg)
+![Workshops like trolls have](https://res.cloudinary.com/fyodorio/image/upload/w_860,h_450,c_fill,g_auto/v1585988010/middle-earth-learning/workshop_dbhgtw.jpg)
 
 [...]
 
 ## Webinars
-![Webinars](https://res.cloudinary.com/fyodorio/image/upload/w_860,h_450,c_fill,g_auto/v1585988010/middle-earth-learning/webinar_ohtr0j.jpg)
+![Webinars like with Saruman's palantir](https://res.cloudinary.com/fyodorio/image/upload/w_860,h_450,c_fill,g_auto/v1585988010/middle-earth-learning/webinar_ohtr0j.jpg)
 
 [...]
 
 ## Conferences
-![Conferences](https://res.cloudinary.com/fyodorio/image/upload/w_860,h_450,c_fill,g_auto/v1585988010/middle-earth-learning/conference_fkhier.jpg)
+![Conferences like in Army Of The Dead](https://res.cloudinary.com/fyodorio/image/upload/w_860,h_450,c_fill,g_auto/v1585988010/middle-earth-learning/conference_fkhier.jpg)
 
 [...]
 
 ## Hackathons
-![Hackathons](https://res.cloudinary.com/fyodorio/image/upload/w_860,h_450,c_fill,g_auto/v1585988009/middle-earth-learning/hackaton_ufoqf6.jpg)
+![Hackathons like dwarf organize](https://res.cloudinary.com/fyodorio/image/upload/w_860,h_450,c_fill,g_auto/v1585988009/middle-earth-learning/hackaton_ufoqf6.jpg)
 
 [...]
 
