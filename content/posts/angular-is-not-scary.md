@@ -15,7 +15,7 @@ I want to indicate from the very beginning that I'm neither an interested party 
 
 A lot of Angular fears come from unawareness and surfaced biases, so I'm aiming to fix that with this post, at least partially.
 
-The fear of Angular starts with confusion about its versions: Google made a bunch of [strange decisions](http://blog.angularjs.org/2016/09/angular2-final.html) when they were releasing Angular v.2 and leaving Angular(JS) 1.x live [its own life](https://angularjs.org). We can just cope with it. Nevertheless, today [the Angular](https://en.wikipedia.org/wiki/Angular_(web_framework) is just Angular, and we're going to talk here only about Angular 2+ version family.
+The fear of Angular starts with confusion about its versions: Google made a bunch of [strange decisions](http://blog.angularjs.org/2016/09/angular2-final.html) when they were releasing Angular v.2 and leaving Angular(JS) 1.x live [its own life](https://angularjs.org). We can just cope with it. Nevertheless, today [the Angular](https://en.wikipedia.org/wiki/Angular_(web_framework)) is just Angular, and we're going to talk here only about Angular 2+ version family.
 
 So let's jump straight to the specific components of the Angular monstrosity myth and smash them to smithereens.
 
