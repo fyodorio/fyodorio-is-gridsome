@@ -1,6 +1,6 @@
 ---
 title: Middle-Earth Ways To Learn Programming 
-date: 2020-04-06
+date: 2020-04-04
 published: true
 description: Alternative view on how to find the one most suitable and surefire for you personally 
 cover_image: https://res.cloudinary.com/fyodorio/image/upload/w_1000,h_420,c_fill,g_auto/v1585988013/middle-earth-learning/cover_mtum0p.jpg
