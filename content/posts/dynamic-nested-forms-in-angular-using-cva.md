@@ -3,7 +3,7 @@ title: Dynamic Nested Forms in Angular Using ControlValueAccessor
 date: 2020-05-31
 published: true
 description: Implement simple scalable dynamic form solutions without 3rd-party libraries
-cover_image: 
+cover_image: https://res.cloudinary.com/fyodorio/image/upload/w_1000,h_420,c_fill,g_auto/v1591322896/IMG_0043_budjqu.jpg
 tags: [angular, forms, typescript, webdev]
 canonical_url: https://fyodor.io/dynamic-nested-forms-in-angular-using-cva/
 series: false
