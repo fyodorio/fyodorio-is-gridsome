@@ -25,7 +25,7 @@ There are several well-tested solutions providing out-of-the-box functionality f
 ## Solution
 
 ## Summary
-[Stackblitz](https://stackblitz.com/edit/angular-contact-form-with-cva?file=src/app/app.component.ts)
+[Stackblitz, part 1](https://stackblitz.com/edit/dynamic-angular-form-part-1?file=src/app/app.component.ts)
 
 ## References
 
