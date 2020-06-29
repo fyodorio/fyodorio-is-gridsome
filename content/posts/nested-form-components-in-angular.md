@@ -1,21 +1,25 @@
 ---
-title: Nested Form Components in Angular Using ControlValueAccessor
+title: Nested Form Components in Angular with ControlValueAccessor
 date: 2020-06-04
 published: true
-description: Implement simple scalable dynamic form solutions without 3rd-party libraries
+description: Implement simple scalable dynamic nested reactive form solution without 3rd-party libraries
 cover_image: https://res.cloudinary.com/fyodorio/image/upload/w_1000,h_420,c_fill,g_auto/v1593323829/john-marvin-de-jose-vvPCT8Ghai0-unsplash_dcegjm.jpg
 tags: [angular, forms, typescript, webdev]
 canonical_url: https://fyodor.io/nested-form-components-in-angular/
-series: [Dynamic Nested Forms in Angular]
+series: [Dynamic Nested Reactive Forms in Angular]
 ---
 
-> This is the second part of the series 
+> This is the *second* part of the series describing the way [Angular](https://angular.io) deals with dynamic and nested reactive forms 
 
-## Problem
- 
-## Case Study
+Angular, as a component-based frameworks, embraces maximum component decomposition. Form components are no exception. As a form-containing component grows bigger, the necessity to decompose it to a set of (potentially reusable) child components emerges. 
+
+Creating a child component and [passing a form control to it](https://blog.grossman.io/real-world-angular-reactive-forms/) as an input looks as an answer at first sight. However, we'll se that Angular provides a more convenient, efficient and scalable one. We'll have a glance at ready-made go-to solutions and implement a custom one to get understanding of how Angular's Reactive Forms work in this regard.
 
 ## Prerequisites
+
+Though I try to explain the topic of nested form components here in a simple and concise way, this is a kind of advanced tutorial. I highly recommend the prerequisites from [the first part](https://fyodor.io/dynamic-forms-in-angular/) of this series here, as well as having the first part read prior to this one to get more context on the case study and dynamic forms approach in general.
+
+## Case Study
 
 ## Options
 
@@ -26,10 +30,6 @@ There are several well-tested solutions providing out-of-the-box functionality f
 
 ## Solution
 
-## Summary
-
-## References
-
-* Read [this post](https://dev.to/angular/working-with-angular-forms-in-an-enterprise-environment-p2m) and links at the bottom prior to proceeding   
+## Summary  
 
 _Cover photo by [John Marvin De Jose](https://unsplash.com/@johnmarvindj) on Unsplash_
