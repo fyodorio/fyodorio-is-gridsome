@@ -37,6 +37,21 @@ The initial setup for this app is available at [this blitz](https://stackblitz.c
 
 ## Solution
 
+To give life to our simple HTML structure and make UI controls interactive we are going to use `ReactiveFormsModule` and some of its important building blocks: `FormBuilder`, `FormGroup`, `FormArray` and `FormControl`.
+
+`FormBuilder` service allows us to compile a basic form structure inside the app component.
+
+`FormGroup` class provides a skeleton for the form and its counterparts, and delivers this contraption to the UI layer using `FormControl` bindings.
+
+The trickiest part of the UI is dynamic input field (`FormGroup` or `FormControl`) adding and removing for phones and emails. We are going to build this feature using `FormArray` class, which provides a scaffolding for homogenous `FormGroup` combinations. It gives us everything we need to develop CRUD functionality for repetitive form patterns.
+
+The diagram shows the simplified app structure and the role of all these building blocks in it.
+
+...
+
+For demo purposes we use very simple data structure here, but as you might guess, we could easily expand any of its parts, as well as the corresponding form group structure. For instance, we could add some kind of select control for phone number group of phones array (to describe its type, for instance), or add a checkbox control for email form group to make it hidden if we chose to. 
+
+
 ## Summary
 
 The final solution is available at [this blitz](https://stackblitz.com/edit/dynamic-angular-form-part-1-final?file=src%2Fapp%2Fapp.component.html).
