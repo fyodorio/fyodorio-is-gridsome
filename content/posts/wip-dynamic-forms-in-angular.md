@@ -1,7 +1,7 @@
 ---
 title: Dynamic Forms in Angular with FormArray
-date: 2020-05-04
-published: true
+date: 2020-12-12
+published: false
 description: Dive into building simple dynamic configurable forms in Angular using built-in tools
 cover_image: https://res.cloudinary.com/fyodorio/image/upload/w_1000,h_420,c_fill,g_auto/v1591322896/IMG_0043_budjqu.jpg
 tags: [angular, forms, typescript, webdev]
