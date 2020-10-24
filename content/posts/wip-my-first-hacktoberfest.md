@@ -1,6 +1,6 @@
 ---
 title: My First Hacktoberfest
-date: 2020-12-04
+date: 2020-12-14
 published: false
 description: A Couple Of Words About My Hacktoberfest Journey In 2020 And Open Source In General
 cover_image: 
