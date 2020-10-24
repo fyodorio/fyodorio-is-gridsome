@@ -1,8 +1,13 @@
 *.log
-.cache
+log.txt
+npm-debug.log*
 .DS_Store
-src/.temp
-node_modules
-dist
 .env
 .env.*
+
+/.cache
+/.idea
+/.vscode
+/src/.temp
+/node_modules
+/dist
