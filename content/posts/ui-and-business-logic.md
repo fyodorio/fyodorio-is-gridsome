@@ -13,7 +13,7 @@ Recently I'd faced the challenge of wiring up a newly implemented (by another de
 
 So for some reason, the idea of implementing the bare UI solution (HTML+CSS basically, through custom shared UI library) and passing it for further revitalization was considered a good one by our Product Owner. That's how I ended up in front of my IDE in complete frustration.
 
-![I ended up in front of my IDE in complete frustration](https://res.cloudinary.com/fyodorio/image/upload/v1606538157/frustration_tvvhpl.gif)
+![I ended up in front of my IDE in complete frustration](https://res.cloudinary.com/fyodorio/image/upload/v1606538157/gifs/frustration_tvvhpl.gif)
 
 Long story short, I had finished this tedious mind-blowing chunk of work, and it started to look and function as intended again, but with a new shiny layout and styles.
 
@@ -26,7 +26,7 @@ Needless to say, I was angry with all these consequences. This case made me thin
 
 In my humble opinion, the following summary should be added as a de-facto standard for software development processes. Probably even written down in the corresponding guidelines (documentation) of each specific project.
 
-![Reaction to pretentious act](https://res.cloudinary.com/fyodorio/image/upload/v1606918219/pathetic_eyg13j.webp)
+![Reaction to pretentious act](https://res.cloudinary.com/fyodorio/image/upload/v1606918219/gifs/pathetic_eyg13j.webp)
 
 Okay, to not be like this, let me just suggest it as a good practice for working on existing front-end applications (i.e., refactoring).
 
@@ -36,7 +36,7 @@ Okay, to not be like this, let me just suggest it as a good practice for working
 1. Don't separate work on interconnected layers of a single feature between different developers (unless it's pair programming)
 1. Start from mechanics, finish with UI, not vice versa
 
-![As simple as that](https://res.cloudinary.com/fyodorio/image/upload/v1606921295/swanson_aka9yg.gif)
+![As simple as that](https://res.cloudinary.com/fyodorio/image/upload/v1606921295/gifs/swanson_aka9yg.gif)
 
 These three rules will allow a project manager (or a team lead, a product owner, or whoever it might be) to shine and their team to be productive, efficient, and fast. Moreover, they prevent burnout and lower blood pressure, it's verified.
 
