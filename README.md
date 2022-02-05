@@ -12,7 +12,7 @@
 
 ### ./content/posts
 
-Markdown files with blog posts. Files from this folder are accessible publicly. 
+Markdown files with blog posts. Files from this folder are accessible publicly. Images can be added to an internal folder here (for instance, `./content/posts/images`). 
 
 ### ./content/drafts
 
