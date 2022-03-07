@@ -1,5 +1,5 @@
 ---
-title: Nested Form Components in Angular with ControlValueAccessor
+title: Nested form components in Angular with ControlValueAccessor
 date: 2020-12-12
 published: false
 description: Implement simple scalable dynamic nested reactive form solution without 3rd-party libraries

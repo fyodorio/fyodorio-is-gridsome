@@ -1,23 +1,23 @@
 ---
-title: Middle-Earth Ways To Learn Programming 
+title: Middle-Earth ways to learn programming 
 date: 2020-04-04
 published: true
 description: Alternative view on how to find the one most suitable and surefire for you personally 
 cover_image: https://res.cloudinary.com/fyodorio/image/upload/w_1000,h_420,c_fill,g_auto/v1585988013/middle-earth-learning/cover_mtum0p.jpg
-tags: [programming, learning, beginners, career]
+tags: [programming, learning, beginners, career, essay]
 canonical_url: https://fyodor.io/middle-earth-ways-to-learn-programming/
 series: false
 ---
 
 I love [The Hobbit](https://en.wikipedia.org/wiki/The_Hobbit_(film_series)) and [The Lord Of The Rings](https://en.wikipedia.org/wiki/The_Lord_of_the_Rings_(film_series)). The [Tolkien](https://en.wikipedia.org/wiki/J._R._R._Tolkien)'s Middle-earth universe is such an awesome place to be, at least in dreams. There's so much inspiration in all the characters inhabiting it. And so much to learn from, like courage, responsibility, curiosity, trust, friendship, and whatnot. But today I'm going to draw a slightly comic analogy between some movie episodes and ways one can learn to program. Many a true word is spoken in jest, so let us take a look at learning processes from a different angle and see which one is more suitable for each of us.  
 
-## Self Teaching
+## Self teaching
 
 ![Self Teaching Like Bilbo loves](https://res.cloudinary.com/fyodorio/image/upload/w_860,h_450,c_fill,g_auto/v1585988009/middle-earth-learning/solo_learning_lukzkq.jpg)
 
 Self teaching is scary. One needs to go a long way and learn from their own mistakes. A beginner can face so many obstacles, so many enemies (including Internet trolls and impostor syndrome). But they can also meet new allies (such as [Stack Overflow](https://stackoverflow.com/) or [Free Code Camp](https://www.freecodecamp.org/)) and gain new powers, not mentioning the feeling of achievement at the end of the Road. It's the way of introverts. The style of lone wolves. The method of achievers. 
 
-## Pair Programming
+## Pair programming
 
 ![Pair Programming Like Gollum practiced](https://res.cloudinary.com/fyodorio/image/upload/w_860,h_450,c_fill,g_auto/v1585988009/middle-earth-learning/pair_programming_y5h1yd.jpg)
 

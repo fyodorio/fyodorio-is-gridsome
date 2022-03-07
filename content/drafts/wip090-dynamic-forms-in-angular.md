@@ -1,5 +1,5 @@
 ---
-title: Dynamic Forms in Angular with FormArray
+title: Dynamic forms in Angular with FormArray
 date: 2020-12-12
 published: false
 description: Dive into building simple dynamic configurable forms in Angular using built-in tools

@@ -4,7 +4,7 @@ date: 2020-02-14
 published: true
 description: Use code review guidelines to make team collaboration effective and nice
 cover_image: https://dev-to-uploads.s3.amazonaws.com/i/lwiasifixq3y6zinra9r.jpg
-tags: [codereview, webdev, teamwork, git]
+tags: [codereview, webdev, teamwork, git, experience]
 canonical_url: https://fyodor.io/make-code-reviews-painless/
 series: false
 ---

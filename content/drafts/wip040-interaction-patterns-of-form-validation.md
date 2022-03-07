@@ -1,5 +1,5 @@
 ---
-title: Interaction Patterns Of Form Validation
+title: Interaction patterns of form validation
 date: 2021-09-01
 published: false
 description:

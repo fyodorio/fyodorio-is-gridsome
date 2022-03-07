@@ -1,5 +1,5 @@
 ---
-title: Subtle Difference Between Common And Shared
+title: Subtle difference between common and shared
 date: 2021-09-01
 published: false
 description:

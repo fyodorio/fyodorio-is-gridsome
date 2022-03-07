@@ -4,7 +4,7 @@ date: 2020-03-18
 published: true
 description: There are many scary things in the world today. Angular framework is not one of them, and here is why.
 cover_image: https://res.cloudinary.com/fyodorio/image/upload/w_1000,h_420,c_fill,g_auto/v1584173614/deleece-cook-Sbzdce7DucU-unsplash_cnwvyl.jpg
-tags: [angular, frameworks, webdev, learning]
+tags: [angular, frameworks, webdev, learning, essay]
 canonical_url: https://fyodor.io/angular-is-not-scary/
 series: false
 ---
@@ -47,7 +47,7 @@ Probably the most significant pain for Angular newcomers is [RxJS](https://rxjs.
 
 People call Angular opinionated. But the opinions Angular promotes provide teams of developers with a consistent approach to coding best practices, which are proven by years of large scale application development. So this is not a part that considered a con these days, rather a great helper.
 
-#### Lack Of Demand
+#### Lack of demand
 
 Some people say that React developers are in demand on the job market worldwide. But the truth is that JavaScript/TypeScript developers, in general, are actually in demand, and managers start to understand that the real value is not in particular framework experience but skills of web development problem-solving.
 
@@ -61,7 +61,7 @@ Documentation is (arguably) not the strongest part of Angular. It's complicated,
 
 Talking about help from peer developers, you cannot ignore the great vibrant [Angular community](https://dev.to/angular). Its members are really open for help, conferences and courses bring high value. It's a big friendly family, and it's a big thing that stops me personally from entirely switching to other frameworks and technologies.
  
-### Final Thoughts 
+### Final thoughts 
 As [Rebecca West](https://en.wikipedia.org/wiki/Rebecca_West) phrased it years ago, _"The trouble about man is twofold. He cannot learn truths which are too complicated; he forgets truths which are too simple."_
 
 No framework or technology is going to satisfy all the different developers on that planet, be it a relatively easy-to-learn Vue, or a die-hard Angular, or whatever shiny new thing you can meet tomorrow. 

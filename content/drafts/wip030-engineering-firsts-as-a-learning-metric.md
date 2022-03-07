@@ -1,5 +1,5 @@
 ---
-title: Engineering Firsts As A Learning Metric
+title: Engineering firsts as a learning metric
 date: 2021-08-01
 published: false
 description: A good way to measure your learning success rate

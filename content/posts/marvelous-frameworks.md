@@ -1,10 +1,10 @@
 ---
-title: Marvelous Frameworks
+title: Marvelous frameworks
 date: 2020-01-25
 published: true
-description: JavaScript Heroes Aren't Born. They're Built. Whose Side Are You On?
+description: JavaScript heroes aren't born. They're built. Whose side are you on?
 cover_image: https://thepracticaldev.s3.amazonaws.com/i/ipzz0meg3hkftg1ebcon.png
-tags: [angular, react, vue, javascript]
+tags: [angular, react, vue, javascript, essay]
 canonical_url: https://fyodor.io/marvelous-frameworks/
 series: false
 ---

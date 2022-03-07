@@ -1,5 +1,5 @@
 ---
-title: Git Workflow For Bold And Daring
+title: Git workflow for bold and daring
 date: 2021-08-14
 published: false
 description: Make git a helper, not an enemy
