@@ -3,10 +3,10 @@
 
     <header class="header">
       <div class="header__left">
-        <Logo v-if="showLogo" /> 
+        <Logo v-if="showLogo" />
       </div>
-      
-      <div class="header__right">        
+
+      <div class="header__right">
         <ToggleTheme />
       </div>
     </header>
@@ -16,7 +16,7 @@
     </main>
 
     <footer class="footer">
-      <small class="footer__copyright">Copyright &copy; {{ new Date().getFullYear() }} fyodor.io</small>
+      <small class="footer__copyright">Copyright &copy; 2020-{{ new Date().getFullYear() }} fyodor.io</small>
     </footer>
 
   </div>
