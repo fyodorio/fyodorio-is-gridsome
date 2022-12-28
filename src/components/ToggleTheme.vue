@@ -30,6 +30,7 @@ export default {
 
 <style lang="scss">
 .toggle-theme {
+  display: flex;
   background-color: transparent;
   border: 0;
   color: var(--body-color);
