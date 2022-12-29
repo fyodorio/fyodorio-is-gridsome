@@ -5,7 +5,7 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-  siteName: 'Fyodor on software',
+  siteName: 'Fyodor\'s digital shed',
   siteDescription: 'Essays on practical and ethical software design, engineering, development, and maintenance using web technologies and APIs',
 
   templates: {
