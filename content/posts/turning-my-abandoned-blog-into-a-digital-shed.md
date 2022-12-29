@@ -1,6 +1,6 @@
 ---
 title: Turning my abandoned blog into a digital shed
-date: 2022-12-29
+date: 2022-12-30
 published: true
 description: Some end-of-the-year ideas to nurture my inner hermit
 cover_image: https://res.cloudinary.com/fyodorio/image/upload/w_1000,h_420,c_fill,g_auto/v1672313846/nico-smit-HjFUevA2g1k-unsplash_qoy22k.jpg
@@ -25,7 +25,7 @@ I wanted to go further with [Gridsome](https://gridsome.org/) initially, but it'
 
 I already did some efforts to bring more love to the way this website looks, works and feels, but these were minor changes. Now I want to put more hours in. I like to do it, and I believe it will bring joy, both to me, and to accidental readers. I also love [building stupid things](https://harshcodereviewrehab.com/) occasionally just for fun and for the sake of it (having heard of this kind of projects from [Salma Alam-Naylor](https://dev.to/whitep4nth3r/why-you-should-ship-your-silly-side-projects-252h) and other creators), so this approach to creative process will probably have its impact here as well.
 
-And this is it — as it's usually made for digital gardens — a quick note about some personally meaningful stuff. I hope for a whole lot of them very soon — my draft list consists of a couple of dozens of new posts. 
+And this is it — as it's usually made for digital gardens — a quick note about some personally meaningful stuff. I hope for a whole lot of them very soon — my draft list consists of a couple of dozens of new posts. Let it be my New Year's resolution, of a kind.
 
 See you there soon 🖖
  

@@ -9,6 +9,8 @@ canonical_url: https://fyodor.io/about-the-shed-dweller/
 series: false
 ---
 
-my markdown *content*
+Hi there 👋
+
+My name is Fyodor.
 
 _Photo by [Clark Young](https://unsplash.com/@cbyoung) from Unsplash_
