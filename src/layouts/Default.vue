@@ -7,6 +7,13 @@
       </div>
 
       <div class="header__right">
+        <ul class="nav">
+          <li class="nav-item">
+            <g-link v-if="$route.path === '/'" to="/about">About</g-link>
+            <g-link v-if="$route.path === '/about'" to="/">Home</g-link>
+          </li>
+        </ul>
+
         <ToggleTheme />
       </div>
     </header>
@@ -51,6 +58,16 @@ export default {
   &__right {
     display: flex;
     align-items: center;
+  }
+
+  .nav {
+    list-style: none;
+    margin: 0 12px 0 0;
+    padding: 0;
+    .nav-item {
+      margin: 0;
+      padding: 0;
+    }
   }
 
   @media screen and (min-width: 1300px) {
