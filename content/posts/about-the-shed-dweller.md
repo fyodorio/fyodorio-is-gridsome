@@ -37,6 +37,29 @@ I started part-time freelancing and occasional side hassles. And fell deeper and
 
 At some point I said to myself it worth the risk and changed my civil engineering career to software engineering. And never looked back.
 
+I always loved computers and treated them with respect. By the time I got my first one, I was able to disassemble and assemble it back with my eyes shut, because I loved reading books about PCs and PC magazines (it was a thing these days). And during my engineering days I always set up my working machine so as I was able to go to the moon with it installed on my ship. I had a lot of shell scripts for automation, several Linux distros installed simultaneously (on top of Windows of course). But funny how software development taught me to value seamless experience and focus on things that you do and not what you do it on. So at some day I tried my wife's MacBook and understood that maybe I'm getting old, but I love the experience of using the machine just to work and not to set thing up, fix and fine-tune the system behaviour. That's when I probably became a professional software developer instead of a computer geek.
+
+As I love the visual part of software, I was always engaged in UI/UX development more than anything else which means HTML, CSS, JS, TS and everything that's between and around. I even practiced CSS art and animation and loved the creative part of it a lot. But at the same time, at different stages of my career I played with Java, C#, C, Objective-C and Swift, Elm, Lua, Lisps, and much more. I still plan to come back to developing my own bootstrap C compiler...
+
+But no matter what people say, front-end development is quite complex and sophisticated in itself, I never fail at finding new challenges at my job and new ways to improve my craft. Some funny things I participated in are:
+
+* ERP for Pentagon with business-modelling and whiteboarding modules inside
+* Swiss-army-knife-like marketing tool for SME with all the conventional bells and whistles and even profile picture cropping
+* Slack and Jira killer (which eventually committed suicide)
+* And many other decent citizens of the software world along with weird outcasts and heathens
+
+Currently, I focus my craft of full-stack web development with focus on UI/UX and smooth BE/FE interactions.
+
+I love to:
+
+* Enhance DX with modern tools and practices including sane automation flows
+* Develop slick micro animations and micro interactions for web applications seamlessly enriching user experience 
+* Refactor complex codebases to make them simpler and easier to work with
+* Build things from scratch with minimal set of tools
+* Get deeper into the way things work and write comprehensive documentation about it
+* Learn new ways of solving problems and practice new approaches to software development (which actually always come back to old good practices under the hood)
+* Mentor younger folks when I can be useful
+
 </details>
 
 Long story short, I was always (and I am now, and I hope I will be) constantly building something and constantly learning something, and I like both processes very much.
