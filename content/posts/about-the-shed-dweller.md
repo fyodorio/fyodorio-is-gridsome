@@ -48,7 +48,7 @@ But no matter what people say, front-end development is quite complex and sophis
 * Slack and Jira killer (which eventually committed suicide)
 * And many other decent citizens of the software world along with weird outcasts and heathens
 
-Currently, I focus my craft of full-stack web development with focus on UI/UX and smooth BE/FE interactions.
+Currently, I practice my craft of full-stack web development with focus on UI/UX and smooth BE/FE interactions.
 
 I love to:
 
@@ -59,6 +59,12 @@ I love to:
 * Get deeper into the way things work and write comprehensive documentation about it
 * Learn new ways of solving problems and practice new approaches to software development (which actually always come back to old good practices under the hood)
 * Mentor younger folks when I can be useful
+
+In the nearest future I plan to:
+
+* Build my own developer tool allowing to seamlessly protect software from internal and external vulnerabilities (which is a huge pain these days both for enterprise development and for OSS)
+* Build a 2D game with my sons to learn this side of development world a bit more, teach kids to code, and just to have some family fun
+* Build this shed in a way that will be welcoming both for myself (to meditate in my own practical way) and for accidental visitors
 
 </details>
 
