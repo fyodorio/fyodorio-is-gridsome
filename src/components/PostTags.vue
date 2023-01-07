@@ -15,6 +15,7 @@ export default {
 <style lang="scss">
 .post-tags {
   margin: 1em 0 0;
+  line-height: 200%;
 
   &__link {
   	margin-right: .7em;
