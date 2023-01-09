@@ -3,7 +3,7 @@ title: Make code reviews painless
 date: 2020-02-14
 published: true
 description: Use code review guidelines to make team collaboration effective and nice
-cover_image: https://dev-to-uploads.s3.amazonaws.com/i/lwiasifixq3y6zinra9r.jpg
+cover_image: https://res.cloudinary.com/fyodorio/image/upload/w_1000,h_420,c_fill,g_auto,q_auto,f_auto/v1673255568/lwiasifixq3y6zinra9r_r2fe5j.jpg
 tags: [codereview, webdev, teamwork, git, experience]
 canonical_url: https://fyodor.io/make-code-reviews-painless/
 series: false

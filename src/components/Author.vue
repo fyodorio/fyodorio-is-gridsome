@@ -1,7 +1,7 @@
 <template>
 	<div class="author">
 
-		<g-image alt="Author image" class="author__image" src="https://res.cloudinary.com/fyodorio/image/upload/v1673112865/my-logos/author_wudaur.jpg" width="180" height="180" blur="5" />
+		<g-image alt="Author image" class="author__image" src="https://res.cloudinary.com/fyodorio/image/upload/q_auto,f_auto/v1673112865/my-logos/author_wudaur.jpg" width="180" height="180" blur="5" />
 
 		<h1 v-if="showTitle" class="author__site-title">
 			{{ $static.metadata.siteName }}

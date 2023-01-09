@@ -3,7 +3,7 @@ title: Nested form components in Angular with ControlValueAccessor
 date: 2020-12-12
 published: false
 description: Implement simple scalable dynamic nested reactive form solution without 3rd-party libraries
-cover_image: https://res.cloudinary.com/fyodorio/image/upload/w_1000,h_420,c_fill,g_auto/v1593323829/john-marvin-de-jose-vvPCT8Ghai0-unsplash_dcegjm.jpg
+cover_image: https://res.cloudinary.com/fyodorio/image/upload/w_1000,h_420,c_fill,g_auto,q_auto,f_auto/v1593323829/john-marvin-de-jose-vvPCT8Ghai0-unsplash_dcegjm.jpg
 tags: [angular, forms, typescript, webdev]
 canonical_url: https://fyodor.io/nested-form-components-in-angular/
 series: [Dynamic Nested Reactive Forms in Angular]

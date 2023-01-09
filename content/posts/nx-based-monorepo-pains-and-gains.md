@@ -3,7 +3,7 @@ title: Nx-based monorepo — pains and gains
 date: 2020-03-02
 published: true
 description: Each useful tool has its flaws that one needs to know about when starting to use it
-cover_image: https://res.cloudinary.com/fyodorio/image/upload/w_1000,h_420,c_fill,g_auto/v1582693872/sucrebrut-xpeyC6vdDdc-unsplash_kyfvih.jpg
+cover_image: https://res.cloudinary.com/fyodorio/image/upload/w_1000,h_420,c_fill,g_auto,q_auto,f_auto/v1582693872/sucrebrut-xpeyC6vdDdc-unsplash_kyfvih.jpg
 tags: [nx, angular, react, monorepo, opinion]
 canonical_url: https://fyodor.io/nx-based-monorepo-pains-and-gains/
 series: false

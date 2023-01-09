@@ -3,7 +3,7 @@ title: Angular is not scary
 date: 2020-03-18
 published: true
 description: There are many scary things in the world today. Angular framework is not one of them, and here is why.
-cover_image: https://res.cloudinary.com/fyodorio/image/upload/w_1000,h_420,c_fill,g_auto/v1584173614/deleece-cook-Sbzdce7DucU-unsplash_cnwvyl.jpg
+cover_image: https://res.cloudinary.com/fyodorio/image/upload/w_1000,h_420,c_fill,g_auto,q_auto,f_auto/v1584173614/deleece-cook-Sbzdce7DucU-unsplash_cnwvyl.jpg
 tags: [angular, frameworks, webdev, learning, essay]
 canonical_url: https://fyodor.io/angular-is-not-scary/
 series: false
