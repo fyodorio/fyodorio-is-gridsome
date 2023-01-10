@@ -34,8 +34,13 @@ As I was documenting my actions on the go, I came up with the checklist for the 
 * I store images on [Cloudinary](https://cloudinary.com/) instead of local folders, as it allows to dynamically enhance and adjust them,
 * The project structure is quite standard in my case though I use an additional folder for storing post drafts.
 
-So here's what one needs to do to migrate a Gridsome website of similar origins to Astro and get rid of inevitable blocker on the way.
+So here's what one needs to do in order to migrate a Gridsome website of similar origins to Astro and get rid of inevitable blocker on the way.
 
-- [ ] Find some simple existing Astro project to use as a settings and structure reference, for instance [this one](https://github.com/littlesticks/astro-minimal-starter). It will help to match the source and the target during the process of migration.
+<div class="checkbox-list">
+
+- [x] Find some simple existing Astro project to use as a settings and structure reference, for instance [this one](https://github.com/littlesticks/astro-minimal-starter). It will help to match the source and the target during the process of migration.
+- [x] Use [manual setup way](https://docs.astro.build/en/install/manual/) for creating a new Astro project, as it gives much more flexibility, and doesn't depend on tooling issues (I had got [some](https://github.com/withastro/astro/issues/5227#issuecomment-1368739482)) and opinionated templates. 
+
+</div>
 
 _Cover photo by [Benjamin Zanatta](https://unsplash.com/@benjaminzanatta) on Unsplash_
