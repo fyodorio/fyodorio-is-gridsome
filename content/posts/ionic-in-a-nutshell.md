@@ -2,7 +2,7 @@
 title: Ionic in a nutshell
 date: 2020-01-11
 published: true
-description: What is Ionic Framework? Get into cross-platform development with web technologies
+description: What is Ionic Framework? Get into cross-platform development with web technologies.
 cover_image: https://res.cloudinary.com/fyodorio/image/upload/w_1000,h_420,c_fill,g_auto,q_auto,f_auto/v1673255568/ionic-framework-og_m4w2tf.png
 tags: [ionic, angular, react, vue, opinion]
 canonical_url: https://fyodor.io/ionic-in-a-nutshell/

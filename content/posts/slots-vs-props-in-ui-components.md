@@ -2,8 +2,8 @@
 title: Slots vs Props in UI components
 date: 2023-01-05
 published: true
-description: How to decide what you need to choose to (re)use?
-cover_image: https://res.cloudinary.com/fyodorio/image/upload/c_fill,g_auto,q_auto,f_auto/v1672912407/slots-vs-props_ijm2kv.jpg
+description: How to decide what you need to choose to (re)use.
+cover_image: https://res.cloudinary.com/fyodorio/image/upload/w_1000,c_fill,g_auto,q_auto,f_auto/v1672912407/slots-vs-props_ijm2kv.jpg
 tags: [angular, react, vue, webdev, opinion]
 canonical_url: https://fyodor.io/slots-vs-props-in-ui-components/
 series: false

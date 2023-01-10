@@ -2,7 +2,7 @@
 title: Middle-Earth ways to learn programming 
 date: 2020-04-04
 published: true
-description: Alternative view on how to find the one most suitable and surefire for you personally 
+description: Alternative view on how to find the one most suitable and surefire for you personally.
 cover_image: https://res.cloudinary.com/fyodorio/image/upload/w_1000,h_420,c_fill,g_auto,q_auto,f_auto/v1585988013/middle-earth-learning/cover_mtum0p.jpg
 tags: [programming, learning, beginners, craftsmanship, essay]
 canonical_url: https://fyodor.io/middle-earth-ways-to-learn-programming/
