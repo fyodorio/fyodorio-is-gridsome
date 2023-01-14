@@ -40,6 +40,10 @@ So here's what one needs to do in order to migrate a Gridsome website of similar
 
 - [x] Find some simple existing Astro project to use as a settings and structure reference, for instance [this one](https://github.com/littlesticks/astro-minimal-starter). It will help to match the source and the target during the process of migration.
 - [x] Use [manual setup way](https://docs.astro.build/en/install/manual/) for creating a new Astro project, as it gives much more flexibility, and doesn't depend on tooling issues (I had got [some](https://github.com/withastro/astro/issues/5227#issuecomment-1368739482)) and opinionated templates. 
+- [x] [Add Vue integration](https://docs.astro.build/en/guides/integrations-guide/vue/) to support smoother migration of Vue components.
+- [x] [Add Sass integration](https://docs.astro.build/en/guides/styling/#sass-and-scss) (if you use Sass; alternatively you can find information about main popular CSS pre/post-processors in [docs](https://docs.astro.build/en/guides/styling/#css-preprocessors) — Astro has great support for them).
+- [x] Move `/components`, `/layouts`, and `/pages` from Gridsome project's `/src` to Astro's project `/src`. Assets are a bit trickier — I'd moved `/styles` directly from Gridsome's `src/assets` to Astro's `/src`, and as I hardly use local images (I prefer Cloudinary, as I mentioned), I had postponed `/images` migration (I'll probably need them later), as it's a quite [tricky thing in Astro](https://docs.astro.build/en/guides/images/), and I'll expand on that later. As for `/templates`, some of them go directly to `/pages`, some settle in `/layouts` — it depends on your architecture and templating approach.
+- 
 
 </div>
 
