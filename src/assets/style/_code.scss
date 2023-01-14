@@ -6,18 +6,24 @@ https://prismjs.com/download.html#themes=prism&languages=markup+css+clike+javasc
  * @author Lea Verou
  */
 
-pre {
-  padding: calc(var(--space) / 2);
-  font-size: .85em;
-  background-color: var(--bg-code);
-  margin-bottom: 2em;
-  border: 1px solid var(--border-color);
-  border-radius: var(--radius);
+code {
+	font-size: .85em;
+	padding: .2em .5em;
+	border: 1px solid var(--border-color);
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	color: var(--code-color);
 }
 
-code {
-  font-size: .85em;
-  padding: .2em .5em;
+pre {
+	padding: calc(var(--space) / 2);
+	font-size: .85em;
+	background-color: var(--bg-code);
+	margin-bottom: 2em;
+	border: 1px solid var(--border-color);
+	border-radius: var(--radius);
+	code {
+		border: none;
+	}
 }
 
 code[class*="language-"],

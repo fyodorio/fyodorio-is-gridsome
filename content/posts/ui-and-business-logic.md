@@ -2,7 +2,7 @@
 title: UI and business logic or the chicken and egg problem
 date: 2020-12-01
 published: true
-description: Some pain-induced thoughts on the order of creating UI and business logic layers 
+description: Pain-induced thoughts on the order of creating UI and business logic layers.
 cover_image: https://res.cloudinary.com/fyodorio/image/upload/w_1000,h_420,c_fill,g_auto,q_auto,f_auto/v1603352761/chicken-and-egg_pfst5b.jpg
 tags: [webdev, teamwork, philosophy, software, essay]
 canonical_url: https://fyodor.io/ui-and-business-logic/
