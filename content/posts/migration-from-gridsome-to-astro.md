@@ -9,6 +9,8 @@ canonical_url: https://fyodor.io/migration-from-gridsome-to-astro/
 series: false
 ---
 
+## Problem
+
 Recently I had started to think about revamping my old blog and [turning it into a digital shed](https://fyodor.io/turning-my-abandoned-blog-into-a-digital-shed/). I wanted to give it more life, more personal touch, to make it a place where I'd love to hang out virtually.
 
 Among other thoughts I considered a possibility of migration to a newer tech stack (because I can). Don't get me wrong, I actually love [Gridsome](https://gridsome.org/) (which is underneath this website now). But it's quite obsolete, and it's actually a dead project now.
@@ -22,9 +24,13 @@ I like the rule of not touching things that are not broken but in this case I de
 * Make DX and UX smoother, 
 * Have some coding fun on holidays.
 
+I had chosen [Astro](https://astro.build/) for the target tech stack as I heard a lot of [good things](https://docs.astro.build/en/concepts/why-astro/) about their approach to static site generation, using [interactivity islands](https://docs.astro.build/en/concepts/islands/), and emphasizing performance by default. Of course, Vue support was crucial as well to make migration more gradual and less painful.
+
 The scope of work didn't look too huge. I wasn't able to find any directly relevant information about migrating a static site from Gridsome to Astro, though there are [some short notes](https://docs.astro.build/en/guides/migrate-to-astro/from-gridsome/) about that on the official Astro's documentation site, which is nice. But they're not about migrating per se, rather switching by abandoning the origin and starting from scratch. It's always cool but... You know, sometimes you need to take your old granny's suitcase with you.
 
 My plan was to try "minimal viable migration" with transferring my existing Vue components as they are, and translating layouts, templates and components from Vue to Astro where necessary. See what happens, and iterate on improvements later on if it will be worth it.
+
+## Solution
 
 Long story short, it went better than I expected but not good enough. And here's the details.
 
@@ -58,5 +64,40 @@ So here's what one needs to do in order to migrate a Gridsome website of similar
 
 So that's it, as "simple" as that. Though migration is never easy indeed, and turning your Gridsome website to Astro is probably the easiest way to refresh your obsolete tech stack in this regard. There are some additional steps that might be needed in your case, and there are some additional steps that are needed in mine, but the described flow is a good start and a good minimal basis for further improvements.
 
+## Findings
+
+It would lie if I said everything was smooth and fun. And I cannot say I'm fully satisfied with results. It was a quick run, and there's still a lot of stuff to do. But I actually liked the way it went, and I like the resulting codebase which became more clean and comprehensive in my opinion, not to say that I got rid of obsolete dependencies and switched to new and well-maintained and supported technology (with very friendly and active [community](https://astro.build/chat))). 
+
+Well, not fully switched yet actually... And that's why.
+
+* When navigating between my "About" and "Home" pages, I see slight page blink caused (I guess) by default light theme trigger and then switching to preferred dark theme. In Gridsome it's seamless (as in SPA apparently) but I'm sure there should be a way around it.
+* Favicon is not visible on sub-pages, only on the main page. I didn't spend too much time on that, but as I use the common base layout everywhere, the issue is unexpected to me.
+* Issues with managing styles of dynamically generated HTML pages — I had handled that by moving some styles from components to global stylesheets, but I'm sure it's possible to make it another (better) way.
+* Confusing image processing depending on source: dev and build commands output different results with regard to locally-stored images, so it's not very clear to me still, should one keep them in `/public` or `/src` assets (or both).
+* Necessity to have a separate scoping slug for tags (and all similar kids of dynamic "scoping" pages). Currently, with gridsome, I don't use such approach, and all the pages have straightforward root-based URLs/slugs. Looks like it's not possible (without some hacks) in Astro.
+* Necessity to have additional [layout stuff in frontmatter](https://docs.astro.build/en/guides/markdown-content/#frontmatter-layout) or in post's `*.md`/`*.mdx` body — I don't like it very much in terms of separation of concerns, probably there's some way to generalize this part on layout level, but I hadn't found it yet.
+* I had noticed discrepancy in header fonts styles and wasn't able to debug it well yet. Probably this issues comes from Gridsome side, actually. But anyway, I still have some styles questions anyway, and will figure this out gradually.
+
+The last thing is performance. I didn't expect much from this and had just run the generic integrated Lighthouse performance checker (my network connection is not ideal, but the test was clean and made at the same conditions). 
+
+So to compare, that's what I have for [Gridsome version](https://fyodor.io/):
+
+![Gridsome site perfomance stats (higher)](https://res.cloudinary.com/fyodorio/image/upload/q_auto,f_auto/v1673720808/astro-migration/Screenshot_2023-01-14_at_23.25.43_klsor8.png)
+
+And here's what I got for [Astro rebuild](https://fyodorio.netlify.app/):
+
+![Astro site perfomance stats (higher)](https://res.cloudinary.com/fyodorio/image/upload/q_auto,f_auto/v1673720808/astro-migration/Screenshot_2023-01-14_at_23.25.35_cdl7hk.png)
+
+I'm pretty sure there's a good reason for that and the problems most probably go from my side and the fast and surfaced migration. But I did expect slightly better outcome, as the site is very small and static.
+
+## Summary
+
+I did tag [the milestone for the source code]() I used for migration in my Gridsome version repository. And I did tag [the first results for Astro migration]() in the corresponding output repository. You can compare and clearly see pros and cons of both, and some specific aspects and differences of both technologies on a working blog example.
+
+I had decided to stay with Gridsome for now. The experiment was successful and pleasant, but it hadn't ended as "brilliantly" as I expected. There's still a lot to be done, the last 10% which, as usual, take 90% of time. I'm not a kind of tech geek which changes technologies each year. I had chosen Gridsome many years ago as it was very easy to start and just write a blog. Today I'd probably go with Astro. And I probably will, but later, and starting from scratch instead of trying to fit triangular shape into square container.
+
+But anyway, this holiday project had shown that Astro is very nice to work with (I actually like [Astro components](https://docs.astro.build/en/core-concepts/astro-components/) much more than any other component syntax I saw, and I saw them all probably), and not this hard to migrate to, with its flexibility and great support for different integrations and frameworks. The data handling here is just perfect and straigtforward, it's just JS, so this part is 10 out of 10, especially when you have a content website and no fancy web-app-like behaviours.
+
+I'll go and proceed polishing by [digital shed](https://fyodor.io/turning-my-abandoned-blog-into-a-digital-shed/) and see, where would be the best place and time to delegate the ground job to Astro. I'm sure I'll end up there eventually.
 
 _Cover photo by [Benjamin Zanatta](https://unsplash.com/@benjaminzanatta) on Unsplash_
