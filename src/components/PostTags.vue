@@ -20,10 +20,10 @@ export default {
   &__link {
   	margin-right: .7em;
   	font-size: .8em;
-  	color: currentColor;
+    font-weight: 500;
   	text-decoration: none;
   	background-color: var(--bg-color);
-  	color: currentColor!important; //Todo: remove important;
+  	color: var(--accent-color);
   	padding: .5em;
   	border-radius: var(--radius);
   }

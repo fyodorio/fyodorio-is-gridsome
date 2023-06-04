@@ -5,12 +5,13 @@ html {
 
 // Light default theme
 body {
-	--bg-color: #F3F7F9;
-	--bg-content-color: #fff;
+	--bg-color: #aeccd6;
+	--bg-content-color: #d9e5e6;
 	--bg-code: #fffbf3;
-	--body-color: #444;
-	--title-color: #111;
-	--link-color: #6b17e6;
+	--body-color: #353d57;
+	--title-color: #353d57;
+	--accent-color: #922c29;
+	--link-color: #922c29;
 	--border-color:  rgba(0,0,0,.1);
 	--code-color: #9F2B68;
 	--space: 3.5rem;
@@ -30,15 +31,15 @@ body {
 	}
 }
 
-
 // Override variables for Dark theme
 body[data-theme="dark"] {
- 	--bg-color: #0D2538;
- 	--bg-content-color: #0f2d44;
+ 	--bg-color: #4d6f95;
+ 	--bg-content-color: #353d57;
  	--bg-code: rgba(0,0,0,.3);
  	--border-color:  rgba(255,255,255,.1);
 	--code-color: #89CFEF; // TODO play with <code> colors, I don't like them
- 	--body-color: #ced8de;
- 	--title-color: #fff;
- 	--link-color: #af9cef;
+ 	--body-color: #d9e5e6;
+ 	--title-color: #d9e5e6;
+	--accent-color: #eec7c6;
+ 	--link-color: #eec7c6;
 }

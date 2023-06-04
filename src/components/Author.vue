@@ -1,7 +1,8 @@
 <template>
 	<div class="author">
 
-		<g-image alt="Author image" class="author__image" src="https://res.cloudinary.com/fyodorio/image/upload/q_auto,f_auto/v1673112865/my-logos/author_wudaur.jpg" width="180" height="180" blur="5" />
+    <!-- TODO either find a proper image, or just get rid of it -->
+		<!--<g-image alt="Author image" class="author__image" src="https://res.cloudinary.com/fyodorio/image/upload/q_auto,f_auto/v1673112865/my-logos/author_wudaur.jpg" width="180" height="180" blur="5" />-->
 
 		<h1 v-if="showTitle" class="author__site-title">
 			{{ $static.metadata.siteName }}
@@ -55,7 +56,7 @@ export default {
 	}
 
 	&__site-title {
-		font-size: 1.5em;
+		font-size: 2em;
 	}
 
 	&__links {
@@ -64,5 +65,11 @@ export default {
 			margin: 0 .5em;
 		}
 	}
+}
+
+@media screen and (max-width: 650px) {
+  .author__intro {
+    padding: 0 calc(var(--space) / 2) 0 calc(var(--space) / 2);
+  }
 }
 </style>
