@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400, 600');
+@import url('https://fonts.googleapis.com/css2?family=Walter+Turncoat&display=swap');
 
 html {
   font-size: var(--base-font-size);
@@ -26,10 +27,14 @@ h1, h2, h3, h4, h5 {
 
 h1 {
   margin-top: 0;
-  font-size: 1.802em;
+  font-size: 2em;
 }
 
 h2 {font-size: 1.602em;}
+
+h1, h2 {
+  font-family: 'Walter Turncoat', cursive;
+}
 
 h3 {font-size: 1.424em;}
 
