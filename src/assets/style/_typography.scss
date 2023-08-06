@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:400, 600');
-@import url('https://fonts.googleapis.com/css2?family=Walter+Turncoat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,600&display=optional');
+@import url('https://fonts.googleapis.com/css2?family=Walter+Turncoat&display=optional');
 
 html {
   font-size: var(--base-font-size);
@@ -33,7 +33,7 @@ h1 {
 h2 {font-size: 1.602em;}
 
 h1, h2 {
-  font-family: 'Walter Turncoat', cursive;
+  font-family: 'Walter Turncoat', sans-serif;
 }
 
 h3 {font-size: 1.424em;}
