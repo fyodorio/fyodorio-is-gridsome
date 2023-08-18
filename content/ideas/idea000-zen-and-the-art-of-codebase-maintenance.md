@@ -4,7 +4,7 @@ date: 2022-08-31
 published: false
 description: How to keep code clean without going insane
 cover_image:
-tags: [webdev, opensource, software, psychology]
+tags: [webdev, opensource, software, psychology, essay]
 canonical_url: https://fyodor.io/zen-and-the-art-of-codebase-maintenance/
 series: false
 ---
