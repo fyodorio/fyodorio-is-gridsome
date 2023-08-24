@@ -1,0 +1,1 @@
+The idea of going from "what we have now" to "what we need to achieve" when working on a product features and enhancement specifically — in terms of requirements and acceptance criteria. Helps to map scenarios and avoid missing edge cases.
