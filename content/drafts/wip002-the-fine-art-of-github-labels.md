@@ -2,7 +2,7 @@
 title: The fine art of GitHub labels
 date: 2023-08-13
 published: false
-description:  Simple and straightforward approach to simplifying code repository management and maintenance
+description:  Straightforward approach to simplifying code repository management and maintenance
 cover_image:
 tags: [productivity, teamwork, git, codereview, experience]
 canonical_url: https://fyodor.io/the-fine-art-of-github-labels/
