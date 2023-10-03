@@ -19,6 +19,7 @@ query {
         id
         title
         date (format: "D MMMM YYYY")
+        updatedOn (format: "D MMMM YYYY")
         timeToRead
         description
         cover_image
