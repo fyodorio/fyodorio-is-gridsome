@@ -1,6 +1,7 @@
 ---
 title: Nx-based monorepo — pains and gains
 date: 2020-03-02
+updatedOn: 2023-10-03
 published: true
 description: Each useful tool has its flaws that one needs to know about when starting to use it.
 cover_image: https://res.cloudinary.com/fyodorio/image/upload/w_1000,h_420,c_fill,g_auto,q_auto,f_auto/v1582693872/sucrebrut-xpeyC6vdDdc-unsplash_kyfvih.jpg
@@ -99,7 +100,7 @@ So the main PROs of switching to Nx are rather obvious and are common for many u
 
 * A solid architectural approach [implementation](https://github.com/nrwl/nx-examples) (enforcing clear separation of concerns between all application parts) and tools for maintaining it, pre-defined code organization and naming conventions
 * Possibility to build a full-stack codebase in a single repository (web front end, Node.js back end, hybrid mobile apps, Electron desktop apps)
-* A set of modern auxiliary web development tools, like [Jest](https://jestjs.io), [Cypress](https://www.cypress.io), [Prettier](https://prettier.io), [Storybook](https://storybook.js.org)
+* A set of modern auxiliary web development tools, like [Jest](https://jestjs.io), [Cypress](https://www.cypress.io), [Prettier](https://prettier.io), [Storybook](https://storybook.js.org) (support for which is not ideal though, but more about that later)
 * Several configurable workspace commands ([Nx CLI](https://nx.dev/web/guides/cli)) and a GUI tool ([Nx Console](https://nx.dev/nx-console)) for working with monorepo code in a fast and convenient way 
 * An automation pipeline helping to work faster on tedious tasks, visualize and analyze changes in a more thorough way (including dependency graphs and selective command running, catching more bugs at build time using additional linter restrictions
 * CI/CD integration providing [faster ways](https://blog.nrwl.io/blazing-fast-distributed-ci-with-nx-a1f5974f7393?gi=fecb2a5313b3) to build production-ready applications
@@ -121,7 +122,9 @@ At first sight there are hardly any CONs of using Nx and one could dive into it 
     * A multiple points of updates make git conflicts a daily routine
 * Nrwl provides Nx Console (greatly simplifying getting familiarity with Nx) [only as a VS Code plugin](https://blog.nrwl.io/brand-new-ui-custom-vscode-task-support-more-in-angular-console-9-0-5e4d3a109fb9) which is not very fun if you used to work with other IDEs or editors
 * There are some issues with updating Nx dependencies (there's a bunch of them as you might guess) so if you prefer tighter update cycles, you need to be aware of some possible delays
-* Switching to alternative tooling inside Nx architecture can be a decent [PITA](https://www.urbandictionary.com/define.php?term=pita)
+* Updating tooling (any tooling, like test runners, or logging libraries, or whatnot) under Nx can turn into a nightmare — there's a thousand (automatically closed, which is a separate topic) issues in Nx's issue tracker which indicate that this is a case for many developers
+* Support for Nx (by that I mean their [official](https://nx.dev/community) Discord and [the issue tracker](https://github.com/nrwl/nx/issues) in the repository itself) is too poor — both me and my peers faced ignoring, neglect and condescension from the Nx devs (which is understandable taking into account the size of the ecosystem but not very nice still though)
+* Switching to alternative tools inside Nx architecture can be a decent [PITA](https://www.urbandictionary.com/define.php?term=pita)
 * Work with hybrid mobile development requires an additional setup or engaging additional tools, like [xplat](https://nstudio.io/xplat)
 
 The list is not complete, but these are the main issues you could face in the mentioned scenario. 
