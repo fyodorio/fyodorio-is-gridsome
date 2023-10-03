@@ -4,9 +4,11 @@
 
 ## Getting started
 
-* `npm install`
+* `npm install`<sup>*</sup>
 * `npm start`
 * Happy coding 🚀
+
+_<sup>*</sup>Because of the old npm supply chain versions (Gridsome is poorly maintained these days), older `Node.js` version needs to be used (`v14.x.x`) in order to make `npm` work here_
 
 ## Folder structure
 
@@ -16,7 +18,15 @@ Markdown files with blog posts. Files from this folder are accessible publicly. 
 
 ### ./content/drafts
 
-Markdown files with drafts for future blog posts. Files from this folder are _not_ accessible publicly.
+Markdown files with _drafts_ for future blog posts (work in progress). These are intended to become new blog posts [soon]. Files from this folder are _not_ accessible publicly.
+
+### ./content/ideas
+
+Markdown files with _ideas_ for future blog posts. These might not make it to the eventual content but are nice to work on. Files from this folder are also _not_ accessible publicly.
+
+### ./content/deprecates
+
+Old ideas, drafts, and whatnot marked for deletion.
 
 ### ./static
 
@@ -42,3 +52,21 @@ Pages are usually used for normal pages or for listing items from a GraphQL coll
 
 Templates for **GraphQL collections** should be added here. To create a template for a collection called `WordPressPost`
 create a file named `WordPressPost.vue` in this folder. Learn more: https://gridsome.org/docs/templates/
+
+## Content population
+
+The [frontmatter](https://cloudcannon.com/tutorials/jekyll-tutorial/introduction-to-front-matter-and-yaml/) for the posts of this blog follow closely the structure provided at dev.to blog editor interface, to improve compatibility and reposting. Here's what we have:
+
+```yaml
+---
+title: My awesome title
+date: 2020-03-02 # which is YYYY-MM-DD
+updatedOn: 2023-10-03 # which is also YYYY-MM-DD
+published: true # not listed and shown at the compiled website if `false`
+description: Sometimes we need that — as a details text for previews and such 
+cover_image: # that should be a URL
+tags: [webdev, angular, react, software, opinion] # up to five, the last is a category, and the last is not added on dev.to
+canonical_url: https://fyodor.io/my-awesome-title/ # matches the file name
+series: false # used on dev.to, not implemented here yet
+---
+```
