@@ -1,1 +1,0 @@
-Don’t listen to generic advice like short sentences
