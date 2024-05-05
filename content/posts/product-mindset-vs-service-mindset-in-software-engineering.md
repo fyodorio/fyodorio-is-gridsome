@@ -15,52 +15,15 @@ In short, one cohort sees a _final product_ as the North Star or their journey, 
 
 While putting stamps is not correct here, _in most cases_ these patterns or work behaviour define everything: starting from day-to-day experiences in teams, and finishing with resulting output(s), both in short terms, and in a long run.
 
----
-title: Why my dachshund would be a good programmer
-date: 2023-10-31
-published: false
-description: Sometimes friends know more
-cover_image:
-tags: [webdev, craftsmanship, software, psychology, essay]
-canonical_url: https://fyodor.io/why-my-dachshund-would-be-a-good-programmer/
-series: false
----
+Why my dachshund would be a good product engineer? Because she has the product mindset, where the product (no matter how cynical it sounds) is me. You can teach those who are _able to be loyal and believe in the goal_ how to build things. You cannot teach those who are _able to build things_ to be loyal and believe in the goal. And it, in practice, crashes even solid projects.
 
-You can teach creatures who know how to be loyal and believe to build things. You cannot teach people who know how to build things to be loyal and believe.
+[photo of the dachshund the good engineer]
 
----
-title: Why enterprise development sucks fun out of programming
-date: 2023-01-01
-published: false
-description:
-cover_image:
-tags: [philosophy, software, career, webdev, essay]
-canonical_url: https://fyodor.io/why-enterprise-development-sucks-fun-out-of-programming/
-series: false
----
+Why enterprise development sucks fun out of programming? Because it turns people from product-minded to service-minded, destroyng any potential loyalty and goal-orientation. It turns people to golden-handcuffed 9-to-5 checkbox traversers instead of software craftsmen.
 
-It turns people from product-minded to service-minded
+Why most developer advocates, devrels, product evangelists and other software missioners sound so hypocritical to the folks at the plow? Because you see them jumping jobs so often, you start to confuse products they evangelize. Salesmen are much more honest in this regard. I truly think the only sincere advocate for a product is the founder of it, or a person attributing themselves to this role.
 
-
----
-never-believe-evangelists-advocates-and-devrels —
-how only the founders and product-minded engineers (not service-minded) can be a real evangelist, as hired devrels change jobs like gloves
-
-
----
-title: Software industry survival guide for empathetic developers
-date: 2023-01-01
-published: false
-description:
-cover_image:
-tags: [philosophy, software, career, webdev, essay]
-canonical_url: https://fyodor.io/software-industry-survival-guide-for-empathetic-developers/
-series: false
----
-
-That also should be mentioned
-
-
+Why empathetic developers feel it so hard to survive in the software development industry? Because service mindset of the most of the peers makes it hard to cope with the way product teams work in 90% of the situations. While the emphaty to the child of your working efforts, the software you build, is usually suppressed as an atavism.
 
 _Photo by [Koshu Kunii](https://unsplash.com/@koshuuu) from Unsplash_
   
