@@ -9,4 +9,4 @@ canonical_url: https://fyodor.io/engineering-firsts-as-a-learning-metric/
 series: false
 ---
 
-Intro text
+The firsts bring the most value — repetitions is double payment for busy developers.

@@ -70,6 +70,6 @@ In the nearest future I plan to:
 
 Long story short, I was always (and I am now, and I hope I will be) constantly building something and constantly learning something, and I like both processes very much.
 
-This shed is the best place to find out everything I'm engaged with currently, but if you need some more networking and interactions, don't hesitate to ping me via email ([alinetofyodor@gmail.com](mailto:alinetofyodor@gmail.com)) or Twitters ([@fyodorio](https://twitter.com/fyodorio)). I hangout at some Discord servers periodically so maybe we're digital neighbours 😉
+This shed is the best place to find out everything I'm engaged with currently, but if you need some more networking and interactions, don't hesitate to ping me via email ([ping@fyodor.io](mailto:ping@fyodor.io)).
 
 _Photo by [Clark Young](https://unsplash.com/@cbyoung) from Unsplash_

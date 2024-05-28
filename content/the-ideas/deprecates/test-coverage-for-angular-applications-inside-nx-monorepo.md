@@ -1,5 +1,5 @@
 ---
-title: Cypress with coverage for Angular applications inside nx monorepo
+title: Test coverage for Angular applications inside nx monorepo
 date: 2022-02-30
 published: false
 description:
