@@ -16,21 +16,25 @@ _<sup>*</sup>Because of the old npm supply chain versions (Gridsome is poorly ma
 
 Markdown files with blog posts. Files from this folder are accessible publicly. Images can be added to an internal folder here (for instance, `./content/posts/images`). 
 
-### ./content/drafts
+### ./content/the-drafts
 
 Markdown files with _drafts_ for future blog posts (work in progress). These are intended to become new blog posts [soon]. Files from this folder are _not_ accessible publicly.
 
-### ./content/ideas
+### ./content/the-ideas
 
 Markdown files with _ideas_ for future blog posts. These might not make it to the eventual content but are nice to work on. Files from this folder are also _not_ accessible publicly.
 
-### ./content/deprecates
+### ./content/the-ideas/projects
+
+Planned posts or pages about side projects.
+
+### ./content/the-ideas/deprecates
 
 Old ideas, drafts, and whatnot marked for deletion.
 
 ### ./static
 
-Add static files here. Files in this directory will be copied directly to `dist` folder during build. For example, /static/robots.txt will be located at https://yoursite.com/robots.txt.
+Add static files here. Files in this directory will be copied directly to `dist` folder during build. For example, /static/robots.txt will be located at https://yoursite.com/robots.txt. (Not used, removed now.)
 
 ### ./src/assets
 
