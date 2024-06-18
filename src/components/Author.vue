@@ -14,7 +14,6 @@
 
 		<p class="author__links">
       <a href="https://www.linkedin.com/in/fyodorio/">LinkedIn</a>
-			<a href="https://twitter.com/fyodorio">Twitter (X)</a>
 			<a href="https://github.com/fyodorio">GitHub</a>
 			<a href="https://codepen.io/fyodorio">CodePen</a>
 			<a href="https://dev.to/fyodorio">DEV</a>

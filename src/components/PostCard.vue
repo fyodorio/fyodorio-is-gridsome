@@ -5,13 +5,14 @@
     <!--  <g-image alt="Cover image" v-if="post.cover_image" class="post-card__image" :src="post.cover_image" />-->
     <!--</div>-->
     <div class="post-card__content">
-      <h2 class="post-card__title" v-html="post.title" />
+      <h2 class="post-card__title">
+        <g-link :to="post.path">{{ post.title }}</g-link>
+      </h2>
+
       <p class="post-card__description" v-html="post.description" />
 
       <PostMeta class="post-card__meta" :post="post" />
       <PostTags class="post-card__tags" :post="post" />
-
-      <g-link class="post-card__link" :to="post.path">Link</g-link>
     </div>
   </div>
 </template>
@@ -31,7 +32,7 @@ export default {
 
 <style lang="scss">
 .post-card {
-  margin-bottom: var(--space);
+  margin-bottom: calc(var(--space) * 0.5);
   position: relative;
 
   &__header {
@@ -59,22 +60,13 @@ export default {
     z-index: 1;
     position: relative;
   }
-
-  &__link {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    opacity: 0.0;
-    overflow: hidden;
-    text-indent: -9999px;
-    z-index: 0;
-  }
 }
 
 // remove top border radius when on mobile
 @media screen and (max-width: 650px) {
+  .post-card {
+    margin-bottom: var(--space);
+  }
   .post-card__header {
     border-radius: 0;
   }
