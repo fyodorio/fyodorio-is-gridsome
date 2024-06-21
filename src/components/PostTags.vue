@@ -20,7 +20,7 @@ export default {
   flex-wrap: wrap;
 
   &__link {
-    line-height: normal;
+    line-height: 1;
   	font-size: .8em;
     font-weight: 500;
   	text-decoration: none;

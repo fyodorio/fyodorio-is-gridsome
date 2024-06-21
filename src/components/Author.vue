@@ -13,10 +13,9 @@
 		</p>
 
 		<p class="author__links">
-      <a href="https://www.linkedin.com/in/fyodorio/">LinkedIn</a>
-			<a href="https://github.com/fyodorio">GitHub</a>
-			<a href="https://codepen.io/fyodorio">CodePen</a>
-			<a href="https://dev.to/fyodorio">DEV</a>
+      <a href="https://www.linkedin.com/in/fyodorio/" target="_blank">LinkedIn</a>
+			<a href="https://github.com/fyodorio" target="_blank">GitHub</a>
+			<a href="https://dev.to/fyodorio" target="_blank">DEV</a>
 		</p>
 
 	</div>
