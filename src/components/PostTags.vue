@@ -15,10 +15,12 @@ export default {
 <style lang="scss">
 .post-tags {
   margin: 1em 0 0;
-  line-height: 200%;
+  display: flex;
+  gap: .5em;
+  flex-wrap: wrap;
 
   &__link {
-  	margin-right: .7em;
+    line-height: normal;
   	font-size: .8em;
     font-weight: 500;
   	text-decoration: none;
