@@ -9,7 +9,7 @@ canonical_url: https://fyodor.io/find-me-on/
 series: false
 ---
 
-Welcome to my links page! Here you can find all the resources where you can connect with me.
+Welcome to my links page! Here you can find all the resources where you can connect with [me](/about).
 
 * [Email](mailto:ping@fyodor.io) — I ❤️ emails the most!
 * [LinkedIn](https://www.linkedin.com/in/fyodorio/) — I'm there for meaningful work-related connections mostly, don't like the vanity fair part though
