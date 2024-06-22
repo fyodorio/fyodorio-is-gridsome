@@ -8,9 +8,11 @@
 
       <div class="header__right">
         <ul class="nav">
-          <li class="nav-item">
-            <g-link v-if="$route.path === '/'" to="/about">About</g-link>
-            <g-link v-if="$route.path === '/about'" to="/">Home</g-link>
+          <li class="nav-item" v-if="$route.path !== '/links'">
+            <g-link to="/links">Links</g-link>
+          </li>
+          <li class="nav-item" v-if="$route.path !== '/about'">
+            <g-link to="/about">About</g-link>
           </li>
         </ul>
 
@@ -23,7 +25,7 @@
     </main>
 
     <footer class="footer">
-      <small class="footer__copyright">Copyright &copy; 2020-{{ new Date().getFullYear() }} fyodor.io</small>
+      <small class="footer__copyright">Copyright &copy; 2019-{{ new Date().getFullYear() }} fyodor.io</small>
     </footer>
 
   </div>
@@ -61,12 +63,16 @@ export default {
   }
 
   .nav {
+    display: flex;
+    gap: 1em;
     list-style: none;
     margin: 0 12px 0 0;
     padding: 0;
     .nav-item {
       margin: 0;
       padding: 0;
+      font-family: 'Walter Turncoat', sans-serif;
+      font-weight: 600;
     }
   }
 

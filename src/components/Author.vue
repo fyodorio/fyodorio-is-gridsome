@@ -1,9 +1,5 @@
 <template>
 	<div class="author">
-
-    <!-- TODO either find a proper image, or just get rid of it -->
-		<!--<g-image alt="Author image" class="author__image" src="https://res.cloudinary.com/fyodorio/image/upload/q_auto,f_auto/v1673112865/my-logos/author_wudaur.jpg" width="180" height="180" blur="5" />-->
-
 		<h1 v-if="showTitle" class="author__site-title">
 			{{ $static.metadata.siteName }}
 		</h1>
@@ -11,13 +7,6 @@
 		<p class="author__intro">
 			{{ $static.metadata.siteDescription }}
 		</p>
-
-		<p class="author__links">
-      <a href="https://www.linkedin.com/in/fyodorio/" target="_blank">LinkedIn</a>
-			<a href="https://github.com/fyodorio" target="_blank">GitHub</a>
-			<a href="https://dev.to/fyodorio" target="_blank">DEV</a>
-		</p>
-
 	</div>
 </template>
 

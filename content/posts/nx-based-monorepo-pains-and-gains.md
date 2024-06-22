@@ -1,7 +1,7 @@
 ---
 title: Nx-based monorepo — pains and gains
 date: 2020-03-02
-updatedOn: 2023-10-03
+updatedOn: 2024-06-22
 published: true
 description: Each useful tool has its flaws that one needs to know about when starting to use it.
 cover_image: https://res.cloudinary.com/fyodorio/image/upload/w_1000,h_420,c_fill,g_auto,q_auto,f_auto/v1582693872/sucrebrut-xpeyC6vdDdc-unsplash_kyfvih.jpg
@@ -126,6 +126,7 @@ At first sight there are hardly any CONs of using Nx and one could dive into it 
 * Support for Nx (by that I mean their [official](https://nx.dev/community) Discord and [the issue tracker](https://github.com/nrwl/nx/issues) in the repository itself) is too poor — both me and my peers faced ignoring, neglect and condescension from the Nx devs (which is understandable taking into account the size of the ecosystem but not very nice still though)
 * Switching to alternative tools inside Nx architecture can be a decent [PITA](https://www.urbandictionary.com/define.php?term=pita)
 * Work with hybrid mobile development requires an additional setup or engaging additional tools, like [xplat](https://nstudio.io/xplat)
+* You can start some local Nx scripts and boil a cup of bouillon on your laptop’s lead (or heat your house) — better disable all processor's turbo-boosts, in opposite case your global warming impact will be too dangerous
 
 The list is not complete, but these are the main issues you could face in the mentioned scenario. 
 

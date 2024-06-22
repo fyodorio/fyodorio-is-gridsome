@@ -19,14 +19,14 @@
 <script>
 export default {
   metaInfo: {
-    title: 'About the shed dweller'
+    title: 'Links'
   }
 }
 </script>
 
 <page-query>
 query {
-  posts: allPost(filter: { title: { eq: "About the shed dweller" }}) {
+  posts: allPost(filter: { title: { eq: "Find me on..." }}) {
     edges {
       node {
         title

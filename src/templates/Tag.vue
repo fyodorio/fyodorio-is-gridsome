@@ -5,7 +5,7 @@
     </h1>
 
     <div class="posts">
-      <PostCard v-for="edge in $page.tag.belongsTo.edges" :key="edge.node.id" :post="edge.node"/>
+      <PostCard v-for="edge in filteredPosts" :key="edge.node.id" :post="edge.node"/>
     </div>
   </Layout>
 </template>
@@ -30,6 +30,7 @@ query Tag ($id: ID!) {
             }
             description
             content
+            published
           }
         }
       }
@@ -50,6 +51,12 @@ export default {
   metaInfo () {
     return {
       title: this.$page.tag.title
+    }
+  },
+  computed: {
+    // cutting out unpublished stuff (including pseudo-page posts)
+    filteredPosts() {
+      return this.$page.tag.belongsTo.edges.filter(edge => edge.node.published);
     }
   }
 }

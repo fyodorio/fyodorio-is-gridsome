@@ -19,6 +19,10 @@ query {
 	text-decoration: none;
   color: var(--accent-color);
   font-weight: 500;
+  &__text {
+    font-family: 'Walter Turncoat', sans-serif;
+    font-weight: 600;
+  }
 
 	&__image {
 		vertical-align: middle;
