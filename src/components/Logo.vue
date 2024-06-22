@@ -1,7 +1,7 @@
 <template>
 	<g-link class="logo" to="/">
 	  <span class="logo__text">
-	    &larr; {{ $static.metadata.siteName }}
+	    &larr; Back to shed
 	  </span>
 	</g-link>
 </template>

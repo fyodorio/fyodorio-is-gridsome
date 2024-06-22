@@ -23,4 +23,8 @@ Welcome to my links page! Here you can find all the resources where you can conn
 * [StackOverflow](https://stackoverflow.com/users/6778546/fyodor) — _that_ website... you know...
 * [Discord](https://discord.com) — my username there is `.fyodorio`, if you'd like to connect (not a frequent guest, but hangout here and there — some awesome communities reside on Discord exclusively)
 
+#### Generic attributions
+
+* Lightbulb icons — [UIcons](https://www.freepik.com/search)
+
 _Photo by [Manuel Sardo](https://unsplash.com/@manuelsardo) from Unsplash_
