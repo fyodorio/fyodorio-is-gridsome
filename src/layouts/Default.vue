@@ -47,6 +47,11 @@ export default {
 </script>
 
 <style lang="scss">
+#app {
+  display: flex;
+  flex-direction: column;
+  flex: 1 0 auto;
+}
 .header {
   display: flex;
   justify-content: space-between;
@@ -84,6 +89,7 @@ export default {
 }
 
 .main {
+  flex: 1 0 auto;
   margin: 0 auto;
   padding: 1.5vw 15px 0;
 }
@@ -103,5 +109,6 @@ export default {
   padding: calc(var(--space) / 2);
   text-align: center;
   font-size: .8em;
+  flex-shrink: 0;
 }
 </style>

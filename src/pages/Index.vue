@@ -4,9 +4,17 @@
     <Author :show-title="true" />
 
     <!-- List posts -->
-    <div class="posts">
-      <PostCard v-for="edge in $page.posts.edges" :key="edge.node.id" :post="edge.node"/>
-    </div>
+    <section class="posts">
+      <PostCard v-for="edge in paginatedData" :key="edge.node.id" :post="edge.node"/>
+    </section>
+
+    <section class="pagination">
+      <button type="button" @click="previousPage" :disabled="currentPage === 1">Previous</button>
+
+      <div>Drawer {{ currentPage }} of {{ totalPages }}</div>
+
+      <button type="button" @click="nextPage" :disabled="currentPage === totalPages">Next</button>
+    </section>
 
   </Layout>
 </template>
@@ -40,6 +48,36 @@ import Author from '~/components/Author.vue'
 import PostCard from '~/components/PostCard.vue'
 
 export default {
+  // The JS hassle is for pagination mostly
+  data() {
+    return {
+      perPage: 5
+    }
+  },
+  computed: {
+    currentPage() {
+      return parseInt(this.$route.query.drawer) || 1;
+    },
+    totalPages() {
+      return Math.ceil(this.$page.posts.edges.length / this.perPage);
+    },
+    paginatedData() {
+      const start = (this.currentPage - 1) * this.perPage;
+      const end = start + this.perPage;
+      return this.$page.posts.edges.slice(start, end);
+    }
+  },
+  methods: {
+    changePage(pageNumber) {
+      this.$router.push({ query: { drawer: pageNumber }});
+    },
+    nextPage() {
+      if (this.currentPage < this.totalPages) this.changePage(this.currentPage + 1);
+    },
+    previousPage() {
+      if (this.currentPage > 1) this.changePage(this.currentPage - 1);
+    }
+  },
   components: {
     Author,
     PostCard
@@ -49,3 +87,31 @@ export default {
   }
 }
 </script>
+
+<style lang="scss">
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  font-family: 'Walter Turncoat', sans-serif;
+  font-weight: 600;
+  button {
+    // reset button styles
+    border: none;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    overflow: visible;
+    background: transparent;
+    color: var(--link-color);
+    font: inherit;
+    line-height: normal;
+    cursor: pointer;
+    &:disabled {
+      filter: opacity(40%);
+      cursor: not-allowed;
+    }
+  }
+}
+</style>
