@@ -32,8 +32,8 @@ export default {
 
 <style lang="scss">
 .post-card {
-  margin-bottom: calc(var(--space) * 0.5);
   position: relative;
+  flex: 1 0 auto;
 
   &__header {
     margin-left: calc(var(--space) * -1);
@@ -64,9 +64,6 @@ export default {
 
 // remove top border radius when on mobile
 @media screen and (max-width: 650px) {
-  .post-card {
-    margin-bottom: var(--space);
-  }
   .post-card__header {
     border-radius: 0;
   }

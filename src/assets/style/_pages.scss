@@ -1,0 +1,55 @@
+// aligned with Post.vue styles for consistency
+.subpage-title {
+  padding-top: calc(var(--space) / 2);
+  text-align: center;
+}
+
+.subpage-text {
+  &__header {
+    width: calc(100% + var(--space) * 2);
+    margin-left: calc(var(--space) * -1);
+    margin-top: calc(var(--space) * -1);
+    margin-bottom: calc(var(--space) / 2);
+    overflow: hidden;
+    border-radius: var(--radius) var(--radius) 0 0;
+
+    img {
+      width: 100%;
+    }
+
+    &:empty {
+      display: none;
+    }
+  }
+
+  &__content {
+    h2:first-child {
+      margin-top: 0;
+    }
+
+    li {
+      ul, p {
+        margin-bottom: 0.6em;
+      }
+    }
+
+    img {
+      width: calc(100% + var(--space) * 2);
+      margin-left: calc(var(--space) * -1);
+      display: block;
+      max-width: none;
+    }
+  }
+
+  &__content > p:first-child {
+    font-size: 1.2em;
+    color: var(--title-color);
+  }
+}
+
+// remove top border radius when on mobile
+@media screen and (max-width: 650px) {
+  .subpage-text__header {
+    border-radius: 0;
+  }
+}

@@ -1,0 +1,11 @@
+.posts {
+  display: flex;
+  flex-direction: column;
+  gap: calc(var(--space) * 0.5);
+}
+
+@media screen and (max-width: 650px) {
+  .posts {
+    gap: var(--space);
+  }
+}

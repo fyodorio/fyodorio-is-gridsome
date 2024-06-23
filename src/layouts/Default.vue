@@ -89,9 +89,12 @@ export default {
 }
 
 .main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   flex: 1 0 auto;
-  margin: 0 auto;
   padding: 1.5vw 15px 0;
+  gap: calc(var(--space) * 0.5);
 }
 
 // make content box full-width when on mobile

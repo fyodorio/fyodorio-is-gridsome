@@ -5,7 +5,7 @@ updatedOn: 2024-05-28
 published: true
 description: Nothing's bad or good, it's just what it is
 cover_image: https://res.cloudinary.com/fyodorio/image/upload/w_1000,h_420,c_fill,g_auto,q_auto,f_auto/v1714058594/cWEGNQqcImk.jpg
-tags: [craftsmanship, teamwork, software, psychology, essay]
+tags: [craftsmanship, teamwork, software, philosophy, essay]
 canonical_url: https://fyodor.io/product-mindset-vs-service-mindset-in-software-engineering/
 series: false
 ---

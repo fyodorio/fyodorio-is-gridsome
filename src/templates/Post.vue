@@ -76,7 +76,7 @@ query Post ($id: ID!) {
 
 <style lang="scss">
 .post-title {
-  padding: calc(var(--space) / 2) 0 calc(var(--space) / 2);
+  padding-top: calc(var(--space) / 2);
   text-align: center;
   &__text {
     padding: 0 var(--space) 0 var(--space);
@@ -84,7 +84,6 @@ query Post ($id: ID!) {
 }
 
 .post {
-
   &__header {
     width: calc(100% + var(--space) * 2);
     margin-left: calc(var(--space) * -1);
@@ -143,6 +142,6 @@ query Post ($id: ID!) {
 }
 
 .post-author {
-  margin-top: calc(var(--space) / 2);
+  padding-top: 0;
 }
 </style>

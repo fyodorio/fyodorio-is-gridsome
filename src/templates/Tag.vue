@@ -1,12 +1,19 @@
 <template>
   <Layout>
-    <h1 class="tag-title text-center space-bottom">
+    <h1 class="tag-title text-center">
       # {{ $page.tag.title }}
     </h1>
 
-    <div class="posts">
-      <PostCard v-for="edge in filteredPosts" :key="edge.node.id" :post="edge.node"/>
-    </div>
+    <section class="posts">
+      <PostCard v-for="edge in paginatedData" :key="edge.node.id" :post="edge.node"/>
+    </section>
+
+    <Pagination
+        v-if="filteredEntityList.length > perPage"
+        :currentPage="currentPage"
+        :totalPages="totalPages"
+        @changePage="changePage"
+    />
   </Layout>
 </template>
 
@@ -40,23 +47,27 @@ query Tag ($id: ID!) {
 </page-query>
 
 <script>
-import Author from '~/components/Author.vue'
-import PostCard from '~/components/PostCard.vue'
+import Author from '~/components/Author.vue';
+import PostCard from '~/components/PostCard.vue';
+import Pagination from '~/components/Pagination.vue';
+import paginationMixin from '~/mixins/pagination-mixin';
 
 export default {
+  mixins: [paginationMixin],
+  computed: {
+    // cutting out unpublished stuff (including pseudo-page posts)
+    filteredEntityList() {
+      return this.$page.tag.belongsTo.edges.filter(edge => edge.node.published);
+    }
+  },
   components: {
     Author,
-    PostCard
+    PostCard,
+    Pagination
   },
   metaInfo () {
     return {
       title: this.$page.tag.title
-    }
-  },
-  computed: {
-    // cutting out unpublished stuff (including pseudo-page posts)
-    filteredPosts() {
-      return this.$page.tag.belongsTo.edges.filter(edge => edge.node.published);
     }
   }
 }

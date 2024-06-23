@@ -30,7 +30,7 @@ export default {
 	margin: 0 auto;
 	max-width: 500px;
 	text-align: center;
-	padding: calc(var(--space) / 2) 0;
+	padding-top: calc(var(--space) / 2);
 
 	&__image {
 		border-radius: 100%;
@@ -41,6 +41,7 @@ export default {
 
 	&__intro {
 		opacity: .8;
+    margin-bottom: 0; // reset default p tag style
 	}
 
 	&__site-title {
