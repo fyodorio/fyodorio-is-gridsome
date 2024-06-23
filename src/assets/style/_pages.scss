@@ -45,6 +45,11 @@
     font-size: 1.2em;
     color: var(--title-color);
   }
+
+  // unique for the pages, not posts
+  &__content > p:last-child {
+    margin-bottom: 0;
+  }
 }
 
 // remove top border radius when on mobile
