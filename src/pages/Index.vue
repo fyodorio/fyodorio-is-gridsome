@@ -9,11 +9,13 @@
     </section>
 
     <section class="pagination">
+      <button type="button" @click="changePage(1)" :disabled="currentPage === 1">First</button>
       <button type="button" @click="previousPage" :disabled="currentPage === 1">Previous</button>
 
       <div>Drawer {{ currentPage }} of {{ totalPages }}</div>
 
       <button type="button" @click="nextPage" :disabled="currentPage === totalPages">Next</button>
+      <button type="button" @click="changePage(totalPages)" :disabled="currentPage === totalPages">Last</button>
     </section>
 
   </Layout>
@@ -76,6 +78,16 @@ export default {
     },
     previousPage() {
       if (this.currentPage > 1) this.changePage(this.currentPage - 1);
+    }
+  },
+  // cover out-of-bounds values edge cases
+  beforeMount() {
+    if (this.currentPage > this.totalPages) {
+      // Force navigation to the last drawer if 'drawer' exceeds total drawers
+      this.changePage(this.totalPages);
+    } else if (this.currentPage < 1) {
+      // Force navigation to the first drawer if 'drawer' is less than 1
+      this.changePage(1);
     }
   },
   components: {
