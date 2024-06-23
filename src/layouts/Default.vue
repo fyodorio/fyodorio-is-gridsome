@@ -25,7 +25,7 @@
     </main>
 
     <footer class="footer">
-      <small class="footer__copyright">Copyright &copy; 2019-{{ new Date().getFullYear() }} fyodor.io</small>
+      <Copyright />
     </footer>
 
   </div>
@@ -34,6 +34,7 @@
 <script>
 import Logo from '~/components/Logo.vue'
 import ToggleTheme from '~/components/ToggleTheme.vue'
+import Copyright from '~/components/Copyright.vue'
 
 export default {
   props: {
@@ -41,7 +42,8 @@ export default {
   },
   components: {
     Logo,
-    ToggleTheme
+    ToggleTheme,
+    Copyright
   }
 }
 </script>

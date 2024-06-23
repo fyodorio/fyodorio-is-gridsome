@@ -48,4 +48,4 @@ There are several well-tested solutions providing out-of-the-box functionality f
 
 The final solution is available at [this blitz](https://stackblitz.com/edit/dynamic-angular-form-part-2-final?file=src/app/app.component.html).
 
-_Cover photo by [John Marvin De Jose](https://unsplash.com/@johnmarvindj) on Unsplash_
+_Cover photo by [John Marvin De Jose](https://unsplash.com/@johnmarvindj) from Unsplash_

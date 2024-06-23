@@ -29,5 +29,5 @@ And this is it — as it's usually made for digital gardens — a quick note abo
 
 See you there soon 🖖
  
-_Cover photo by [Nico Smit](https://unsplash.com/@nicosmit99) on Unsplash_
+_Cover photo by [Nico Smit](https://unsplash.com/@nicosmit99) from Unsplash_
 

@@ -44,4 +44,4 @@ Software development should be a mindful process not only as a whole but also in
 
 ![Mic drop](https://res.cloudinary.com/fyodorio/image/upload/v1606922000/gifs/mic-drop_azlax2.gif)
 
-_Cover photo by [Daniel Tuttle](https://unsplash.com/@danieltuttle) on Unsplash_
+_Cover photo by [Daniel Tuttle](https://unsplash.com/@danieltuttle) from Unsplash_

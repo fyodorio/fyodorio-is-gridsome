@@ -136,4 +136,4 @@ It all looks quite scary, though, in practice, time pays efforts off by streamli
 
 There's a bunch of advanced web development and teamwork tools that make our life more comfortable and help to collaborate on code efficient and time-saving ways. Nx is one of them, and it proved to be a reliable solution for big Angular monorepos and gains momentum in the React ecosystem. Though as with many things in this cruel world, there are always some caveats one should consider before getting his hands dirty and engaging a whole team in a complex heavy solution. You would definitely like Nx's power, but I recommend to think twice before using it in your projects without any specific need, and probably consider building thorough team coding best practices, collaboration, and documentation traditions instead.
 
-_Cover photo by [Sucrebrut](https://unsplash.com/@sucrebrut) on Unsplash_
+_Cover photo by [Sucrebrut](https://unsplash.com/@sucrebrut) from Unsplash_

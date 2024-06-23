@@ -55,4 +55,4 @@ So, after all this deep dive into the knowledge universe, we can definitely make
 >
 >  _― J.R.R. Tolkien, The Hobbit, or There and Back Again_
 
-_Cover photo by [Tobias Stonjeck](https://unsplash.com/@tobistj) on Unsplash_
+_Cover photo by [Tobias Stonjeck](https://unsplash.com/@tobistj) from Unsplash_

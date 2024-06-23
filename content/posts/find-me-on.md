@@ -25,6 +25,7 @@ Welcome to my links page! Here you can find all the resources where you can conn
 
 #### Generic attributions
 
+* Source code for this website — [GitHub](https://github.com/fyodorio/fyodorio-is-gridsome)
 * Lightbulb icons — [UIcons](https://www.freepik.com/search)
 
-_Photo by [Manuel Sardo](https://unsplash.com/@manuelsardo) from Unsplash_
+_Cover photo by [Manuel Sardo](https://unsplash.com/@manuelsardo) from Unsplash_

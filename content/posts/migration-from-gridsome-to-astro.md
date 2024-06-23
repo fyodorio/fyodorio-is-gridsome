@@ -101,4 +101,4 @@ But anyway, this holiday project had shown that Astro is very nice to work with 
 
 I'll go and proceed polishing by [digital shed](https://fyodor.io/turning-my-abandoned-blog-into-a-digital-shed/) and see, where would be the best place and time to delegate the chores to Astro. I'm sure I'll end up there eventually.
 
-_Cover photo by [Benjamin Zanatta](https://unsplash.com/@benjaminzanatta) on Unsplash_
+_Cover photo by [Benjamin Zanatta](https://unsplash.com/@benjaminzanatta) from Unsplash_

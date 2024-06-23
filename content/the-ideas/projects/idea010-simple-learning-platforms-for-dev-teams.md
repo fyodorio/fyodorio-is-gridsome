@@ -11,4 +11,4 @@ series: false
 
 Intro text
 
-_Cover photo by [Mimi Thian](https://unsplash.com/@mimithian) on Unsplash_
+_Cover photo by [Mimi Thian](https://unsplash.com/@mimithian) from Unsplash_

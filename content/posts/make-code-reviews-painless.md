@@ -40,4 +40,4 @@ As a bonus, I [had dropped](https://github.com/fyodorio/code-review-guidelines/b
 
 Please, let me know [in comments](https://dev.to/fyodorio/make-code-reviews-painless-29j3) what you think about this approach and what is your view on the problem of making Pull Request reviewing experience at least meaningful, if not exciting.
 
-_Cover photo by [Priscilla Du Preez](https://unsplash.com/@priscilladupreez) on Unsplash_
+_Cover photo by [Priscilla Du Preez](https://unsplash.com/@priscilladupreez) from Unsplash_

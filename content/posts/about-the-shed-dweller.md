@@ -72,4 +72,4 @@ Long story short, I was always (and I am now, and I hope I will be) constantly b
 
 This shed is the best place to find out everything I'm engaged with currently, but if you need some more networking and interactions, don't hesitate to [reach out](/links).
 
-_Photo by [Clark Young](https://unsplash.com/@cbyoung) from Unsplash_
+_Cover photo by [Clark Young](https://unsplash.com/@cbyoung) from Unsplash_
