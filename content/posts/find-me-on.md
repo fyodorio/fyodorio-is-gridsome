@@ -13,12 +13,12 @@ Welcome to my links page! Here you can find all the resources where you can conn
 
 * [Email](mailto:ping@fyodor.io) — I ❤️ emails the most!
 * [LinkedIn](https://www.linkedin.com/in/fyodorio/) — I'm there for meaningful work-related connections mostly, don't like the vanity fair part though
-* [Mastodon](https://qoto.org/@fyodorio) — trying to get a glimpse of it yet
+* [Mastodon](https://qoto.org/@fyodorio) and [Bluesky](https://bsky.app/profile/fyoda.bsky.social) — trying to get a glimpse of it yet
 * [Twitter/X](https://x.com/fyodorio) — I loved that, but I don't like what it becomes at all, so a rare guest  
 * [GitHub](https://github.com/fyodorio) — my public code is there mostly
-* [CodePen](https://codepen.io/fyodorio) — some early CSS experiments, use as a minimalist sandbox here and there
+* [CodePen](https://codepen.io/fyodorio) — some CSS experiments, use as a minimalist sandbox here and there
 * [DEV](https://dev.to/fyodorio) — my main source of reading these days; I also repost some stuff there, and write some original texts too, for dedicated discussions mostly 
-* [Hashnode](https://hashnode.com/@fyodorio) — my second reading source
+* [Hashnode](https://hashnode.com/@fyodorio) — my second reading source (rarely though, too bland)
 * [Reddit](https://www.reddit.com/user/fyodorio/) — some interesting search results lead there very often, it's hard to ignore
 * [StackOverflow](https://stackoverflow.com/users/6778546/fyodor) — _that_ website... you know...
 * [Discord](https://discord.com) — my username there is `.fyodorio`, if you'd like to connect (not a frequent guest, but hangout here and there — some awesome communities reside on Discord exclusively)
