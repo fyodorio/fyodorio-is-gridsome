@@ -3,7 +3,7 @@ title: Product mindset vs service mindset in software engineering
 date: 2023-04-26
 updatedOn: 2024-05-28
 published: true
-description: Nothing's bad or good, it's just what it is
+description: Nothing's bad or good, it's just what it is.
 cover_image: https://res.cloudinary.com/fyodorio/image/upload/w_1000,h_420,c_fill,g_auto,q_auto,f_auto/v1714058594/cWEGNQqcImk.jpg
 tags: [craftsmanship, teamwork, software, philosophy, essay]
 canonical_url: https://fyodor.io/product-mindset-vs-service-mindset-in-software-engineering/
