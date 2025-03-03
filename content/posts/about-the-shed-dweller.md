@@ -11,7 +11,7 @@ series: false
 
 Hi there 👋
 
-My name is Fyodor Hagrid.
+My name is Fyodor.
 
 I call myself _a software craftsman_. And this site is my _[digital shed](https://fyodor.io/turning-my-abandoned-blog-into-a-digital-shed/)_ (aka _digital garden_, but I'm not into plants). I aspire to be a full-stack developer but mostly do front-end work these days. My main area of interest is developer tools, and currently I help to build one of the greatest DevSecOps ecosystems around with other awesome folks at [42Crunch](https://42crunch.com/).
 
