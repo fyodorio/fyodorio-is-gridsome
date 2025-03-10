@@ -1,4 +1,5 @@
 # Fyodor's digital shed
+[![Netlify Status](https://api.netlify.com/api/v1/badges/bb6a8dda-6431-477f-a926-1cfec38333a2/deploy-status)](https://app.netlify.com/sites/fyodor-io/deploys)
 
 > A personal blog based on customized [Gridsome Blog Starter](https://github.com/gridsome/gridsome-starter-blog) - a simple, hackable & minimalistic starter for Gridsome that uses Markdown for content.
 
