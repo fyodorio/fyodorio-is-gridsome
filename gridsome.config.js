@@ -6,7 +6,7 @@
 
 module.exports = {
   siteName: 'Fyodor\'s digital shed',
-  siteDescription: 'Essays on practical and ethical software design, engineering, development, and maintenance using both modern and ancient technologies and APIs',
+  siteDescription: 'Essays on practical and ethical software design, engineering, development, and maintenance using both modern and ancient technologies.',
 
   templates: {
     Post: '/:title',
