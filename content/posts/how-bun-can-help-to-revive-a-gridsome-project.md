@@ -42,7 +42,7 @@ Long story short, here's what I did to make it happen:
     }
     ```
 
-And that's basically it. After that, you can run `bun install` and test everything locally before pushing your code to production. To my surprise, it worked perfectly, and I didn't need to do anything additional. There was some trial and error, but mostly due to my experimenting or testing the limits.
+And that's basically it. After that, you should run `bun install` and test everything locally before pushing your code to production (and also generate `bun.lock` on the background, it's mandatory, and you need to push it to your repo too — Netlify uses this file to detect it needs to use Bun instead of Node). To my surprise, it worked perfectly, and I didn't need to do anything additional. There was some trial and error, but mostly due to my experimenting or testing the limits.
 
 A couple of spotted tradeoffs after this update were:
 
