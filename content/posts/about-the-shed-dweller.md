@@ -13,7 +13,7 @@ Hi there 👋
 
 My name is Fyodor.
 
-I call myself _a software craftsman_. And this site is my _[digital shed](https://fyodor.io/turning-my-abandoned-blog-into-a-digital-shed/)_ (aka _digital garden_, but I'm not into plants). I aspire to be a full-stack developer but mostly do front-end work these days. My main area of interest is developer tools, and currently I help to build one of the greatest DevSecOps ecosystems around with other awesome folks at [42Crunch](https://42crunch.com/).
+I call myself _a software craftsman_. And this site is my _[digital shed](https://fyodor.io/turning-my-abandoned-blog-into-a-digital-shed/)_ (aka _digital garden_, but I'm not into plants). I love coding but often engage in various adjacent software-development-related activities, including management and systems architecture. My main areas of interest are developer tools, security, code parsing and compilation, and (obviously and unavoidably) AI. Currently I'm mostly seen building one of the greatest DevSecOps ecosystems around, while tinkering with some other side projects on the background, like [the Metaframeworks Weekly newsletter](https://metaframe.works).
 
 <details>
 
@@ -39,7 +39,7 @@ At some point I said to myself it worth the risk and changed my petroleum engine
 
 I always loved computers and treated them with respect. By the time I got my first one, I was able to disassemble and assemble it back with my eyes shut, because I loved reading books about PCs and PC magazines (it was a thing these days). And during my engineering days I always set up my working machine so as I was able to go to the moon with it installed on my ship. I had a lot of shell scripts for automation, several Linux distros installed simultaneously (on top of Windows of course). But funny how software development taught me to value seamless experience and focus on *things that you do* instead of *what you do it with*. So at some day I tried my wife's MacBook and understood that maybe I'm getting old, but I love the experience of using the machine just to work and not to set thing up, fix and fine-tune the system behaviour. That's when I probably became a professional software developer instead of a computer geek.
 
-As I love the visual part of software, I was always engaged in UI/UX development more than anything else which means HTML, CSS, JS, TS and everything that's in between and around. I even practiced CSS art and animation and loved the creative part of it a lot. But at the same time, at different stages of my career I played with Java, C#, C, Objective-C and Swift, Elm, Lua, Lisps, and much more. I still plan to come back to developing my own bootstrap C compiler...
+As I love the visual part of software, I was always engaged in UI/UX development more than anything else which means HTML, CSS, JS, TS and everything that's in between and around. I even practiced CSS art and animation and loved the creative part of it a lot. But at the same time, at different stages of my career I played with Java, C#, C, Objective-C and Swift, Elm, Lua, Lisps, Rust, Zig, and much more. I still plan to come back to developing my own bootstrap C compiler...
 
 But no matter what people say, front-end development is quite complex and sophisticated in itself, I never fail at finding new challenges at my job and new ways to improve my craft. Some funny things I participated in are:
 
@@ -48,7 +48,7 @@ But no matter what people say, front-end development is quite complex and sophis
 * Slack and Jira killer (which eventually committed suicide)
 * And many other decent citizens of the software world along with weird outcasts and heathens
 
-Currently, I practice my craft of full-stack web development with focus on UI/UX and smooth BE/FE interactions.
+Currently, I practice my craft of software development with focus on UI/UX and smooth BE/FE interactions.
 
 I love to:
 
