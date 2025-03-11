@@ -1,0 +1,26 @@
+[build]
+# Base directory (if your project is in a subfolder)
+base = "/"
+
+# Install Bun, dependencies, and run the build
+command = """
+    curl -fsSL https://bun.sh/install | bash &&
+    export PATH="$HOME/.bun/bin:$PATH" &&
+    bun install &&
+    bun run build
+  """
+
+# Publish directory (Gridsome's default output folder)
+publish = "dist"
+
+[build.environment]
+# Set Node.js version (optional, but recommended for compatibility)
+NODE_VERSION = "14"
+
+# Optional: Cache Bun's installation directory for faster builds
+[[plugins]]
+package = "netlify-plugin-cache"
+[plugins.inputs]
+paths = [
+    ".bun"
+]
