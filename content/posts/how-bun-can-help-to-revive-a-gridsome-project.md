@@ -9,7 +9,7 @@ canonical_url: https://fyodor.io/how-bun-can-help-to-revive-a-gridsome-project/
 series: false
 ---
 
-Starting from this year, builds for this website through my [Netlify](http://netlify.com) account began failing.
+Starting from this year, builds for [this website's code](https://github.com/fyodorio/fyodorio-is-gridsome) through my [Netlify](http://netlify.com) account began failing.
 
 Frankly speaking, I'm still not quite sure why. It could be updates to the corresponding Netlify's Ubuntu image used for deployment. Or perhaps changes in the building workflows for Node (_which tend to be unnecessarily extensive at times_). It was hard to find the reason, and the community support there is quite slow (_as with any community support — hard to blame the guys here_).
 
