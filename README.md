@@ -5,11 +5,12 @@
 
 ## Getting started
 
-* `npm install`<sup>*</sup>
-* `npm start`
+* Install Bun<sup>*</sup> (see [the official docs](https://bun.sh/docs/installation))
+* `bun install`
+* `bun run develop`
 * Happy coding 🚀
 
-_<sup>*</sup>Because of the old npm supply chain versions (Gridsome is poorly maintained these days), older `Node.js` version needs to be used (`v14.x.x`) in order to make `npm` work here_
+_<sup>*</sup>I use `bun` not because it's hip but because Gridsome is not maintained anymore and in the latest available version it requires older `Node.js` versions (`v14.x.x`) in order to make `npm` work, and these versions are poorly supported at Netlify, which I use for deployment._
 
 ## Folder structure
 
