@@ -1,17 +1,3 @@
 [build]
 command = "bun run build"
 publish = "dist"
-
-[build.environment]
-# Explicitly set Bun version to match local (1.2.5)
-BUN_VERSION = "1.2.5"
-
-# Required for native modules (e.g., "sharp")
-# PYTHON_VERSION = "3.10"  # Compatible with node-gyp
-# NODE_VERSION = "18"      # Modern Node.js for compatibility (see notes below)
-
-# [[plugins]]
-# package = "netlify-plugin-nodejs"
-# [plugins.inputs]
-# Node.js 18 is used only for compiling native modules (optional but recommended)
-# nodeVersion = "18"
