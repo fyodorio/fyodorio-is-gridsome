@@ -1,19 +1,19 @@
 {
   "name": "fyodorio-is-gridsome",
   "scripts": {
-    "start": "npm run develop",
+    "start": "bun run develop",
     "build": "gridsome build",
     "develop": "gridsome develop",
     "explore": "gridsome explore"
   },
   "dependencies": {
-    "@gridsome/remark-prismjs": "^0.5.0",
-    "@gridsome/source-filesystem": "^0.6.2",
-    "@gridsome/transformer-remark": "^0.6.4",
-    "gridsome": "^0.7.23"
+    "@gridsome/remark-prismjs": "0.5.0",
+    "@gridsome/source-filesystem": "0.6.2",
+    "@gridsome/transformer-remark": "0.6.4",
+    "gridsome": "0.7.23"
   },
   "devDependencies": {
-    "sass": "^1.43.4",
-    "sass-loader": "^10.2.0"
+    "sass": "1.43.5",
+    "sass-loader": "10.5.2"
   }
 }
