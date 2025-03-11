@@ -51,6 +51,6 @@ A couple of spotted tradeoffs after this update were:
 
 These are definitely not showstoppers but something I want to tinker with further a bit later. It's an affordable price for resurrecting the website.
 
-In summary, I'd say that if you're a noble gentleman or a lady, you probably should go the migration route and use something like [Astro](https://astro.build) (*supports Vue component*s) or [11ty](https://www.11ty.dev) (_lightweight and simple_), or basically any static site generator or [modern metaframework](https://metaframe.works/comparison/). But as a bit of a tech eccentric, I'll personally reside here for now, thanks to Bun (_which I'm now quite motivated to adopt and research further_).
+In summary, I'd say that if you're a noble gentleman or a lady, you probably should go the migration route and use something like [Astro](https://astro.build) (_supports Vue components_) or [11ty](https://www.11ty.dev) (_lightweight and simple_), or basically any static site generator or [modern metaframework](https://metaframe.works/comparison/). But as a bit of a tech eccentric, I'll personally reside here for now, thanks to Bun (_which I'm now quite motivated to adopt and research further_).
 
 _The cover photo by [Museums Victoria](https://unsplash.com/@museumsvictoria) from Unsplash_
