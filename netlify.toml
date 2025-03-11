@@ -1,26 +1,17 @@
 [build]
-# Base directory (if your project is in a subfolder)
-base = "/"
-
-# Install Bun, dependencies, and run the build
-command = """
-    curl -fsSL https://bun.sh/install | bash &&
-    export PATH="$HOME/.bun/bin:$PATH" &&
-    bun install &&
-    bun run build
-  """
-
-# Publish directory (Gridsome's default output folder)
+command = "bun run build"
 publish = "dist"
 
 [build.environment]
-# Set Node.js version (optional, but recommended for compatibility)
-NODE_VERSION = "14"
+# Explicitly set Bun version to match local (1.2.5)
+BUN_VERSION = "1.2.5"
 
-# Optional: Cache Bun's installation directory for faster builds
+# Required for native modules (e.g., "sharp")
+PYTHON_VERSION = "3.10"  # Compatible with node-gyp
+NODE_VERSION = "18"      # Modern Node.js for compatibility (see notes below)
+
 [[plugins]]
-package = "netlify-plugin-cache"
+package = "netlify-plugin-nodejs"
 [plugins.inputs]
-paths = [
-    ".bun"
-]
+# Node.js 18 is used only for compiling native modules (optional but recommended)
+nodeVersion = "18"
