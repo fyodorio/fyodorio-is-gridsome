@@ -1,6 +1,10 @@
 // Import main css
 import '~/assets/style/index.scss'
 
+// prism.js-related CSS
+import 'prismjs/themes/prism-coy.min.css'
+import 'prismjs/plugins/diff-highlight/prism-diff-highlight.min.css'
+
 // Import default layout so we don't need to import it to every page
 import DefaultLayout from '~/layouts/Default.vue'
 
