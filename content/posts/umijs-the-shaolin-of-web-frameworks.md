@@ -39,13 +39,13 @@ UmiJS is an [extremely] pluggable enterprise-scale React-based web application [
 
 In addition to the framework itself, the developers behind UmiJS maintain and connect the dots for the whole huge ecosystem of very clever tools and technologies, some of which got acquired some popularity even behind the Great Wall of China:
 
-* *[Mako](https://makojs.dev).*
-* *[Dumi](https://d.umijs.org).*
-* *[Ant Design](https://ant.design).*
-* *[Father](https://github.com/umijs/father).*
-* *[Qiankun](https://qiankun.umijs.org).*
-* *[Dva](https://umijs.org/en-US/docs/max/dva).*
-* *[CLI](https://umijs.org/en-US/docs/api/commands).*
+* *[Mako](https://makojs.dev).* A bundler and web server — a kind of Vite for the UmiJS web apps. It's a fresh development among other tools (as far as understand, the guys used mostly Webpack and Vite before this in-house tool got up to speed). Built with Rust and declared to be even faster than other Rust-based analogs, not to say about the lame tools like Webpack and such.
+* *[Dumi](https://d.umijs.org).* A static site generator specifically designed for component library development. Look at it as at something between Storybook and Docusaurus inside the Umi world (but much better integrated between each other, presumably).
+* *[Ant Design](https://ant.design).* A top-level UI component library that provides a set of high-quality React components. Quite popular even outside of the Umi toolset and can be used independently, but integrated beautifully with Umi — to the extent I had a hard time figuring out where to find the actual components (see below, in the project section).
+* *[Father](https://github.com/umijs/father).* A tool designed specifically for building libraries. Used widely by all other tools and from the first look it's hard to find any analog in the world I got used to. Very often dev teams develop some custom approaches for that, but here it's a good set of best practices combined into a decently looking (and functioning) craftsman's hammer.
+* *[Qiankun](https://qiankun.umijs.org).* An implementation of [micro frontends](https://en.wikipedia.org/wiki/Micro_frontend) for easier and painless building of production-ready microfront-end architecture system.
+* *[Dva](https://umijs.org/en-US/docs/max/dva).* A plugin-based state management solution (Redux + Sagas). Also quite popular in narrow communities outside of Umi world.
+* *[CLI](https://umijs.org/en-US/docs/api/commands).* An interesting DX booster for Umi I'll talk about in details a bit later.
 
 Moreover, with Umi you get a strong [plugin system](https://umijs.org/en-US/docs/guides/use-plugins), some of which are included by default with each project scaffolded with Umi CLI. These plugin provide, for instance, capable site analytics, rich charts, robust data storage presets, internatiolization and localization capabilities, and many other enticing (though obscure still, until you try them) things.
 
@@ -133,7 +133,7 @@ Running `pnpm dev` results in the following:
 
 ![Dev server run](https://res.cloudinary.com/fyodorio/image/upload/q_auto,f_auto/v1742791791/umijs/2_run_dev_server_esziqx.png)
 
-And then in the browser, after slight loading with a fancy dedicated animated loader:
+(_A bit more about the ubiquitous MFSU thingy later..._) And then in the browser, after slight loading with a fancy dedicated animated loader:
 
 ![Browser loading indicator](https://res.cloudinary.com/fyodorio/image/upload/q_auto,f_auto/v1742881894/umijs/2a_bundling_sikqgq.png)
 
@@ -199,38 +199,38 @@ Good thing is that you can just deploy your repo to [Netlify](https://www.netlif
 
 Here I come with a sheet of random thought bourne by the results of my successful UmiJS testing.
 
-MPA mode is quite obscure.
+🧙 In general, UmiJS provides developers with clever Angular/RedwoodJS-like approach with out-of-the-box tools and scripts for streamlined web development in big teams. The corresponding inevitably huge amount of abstractions and hidden complexity brings decent level of obscurity and magic, which might be good or bad, depending on a number of dedicated wizards of high level in your team.
 
-Clever Angular/Redwood-like approach but with the same resulting level of obscurity and complexity.
+㊙️ One problem these wizards will face though will be a poor ~~wizarding library~~ documentation in English because all the development happens to be in Chinese and English support is quite secondary and lacking. However, you'll have a sufficient amount of general documentation in English anyway, and you'll always have access to the source code — because that's what them wizards do, right?
 
-Poor English support.
+🏗️ The Umi's plugin system and API is quite interesting. You can do a lot with that. The approach is quite common for dev tools and in this case resembles both Vite and Nx with their extensibility and communtity orientation. There's a huge ecosystem of plugins of all sorts, and you can always complement them with your own (which is quite important for sopisticated enterprise development). I'd assume you could build a pretty decent metaframework mechanisms with this flexible approach. At least, as I mentioned already, you have a bunch of thoughtful building blocks for that.
 
-Plugin system is interesting.
+🎨 [LESS](https://lesscss.org) is recommended by Umi guys officially as a styles preprocessor which is a bit weird and original. I didn't see it often (never, actually) in other tools (which doesn't lessen the LESS' awesomeness of course) and it creates some vibe of exclusivity and rebelion (as everything in Umi, TBH).
 
-> The essence of Umi lies in its plugin mechanism
+🗃️ MPA mode is quite obscure here. I wasn't able to quickly turn my demo app to an MPA as I planned, but I believe digging into configuration and plugins deeper would provide a solution. It's just it's a bit tough, meaning the focus is actually SPAs (though as I mentioned, the client-side routing have runtime quirks too requiring some further unsolicited setup which everyone likes, right?).
 
-I'd assume you could build a pretty decent metaframework mechanisms with this flexible approach.
+😶‍🌫️ TypeScript support is quite obscure and weird. My [WebStorm](https://www.jetbrains.com/webstorm/)'s language service got fed up with that from time to time (which probably can be attributed to lack of out-of-the-box support for Umi in particular, but nevertheless). Again, the matter of configuration, but you know — we, spoiled-with-zero-config-tools developers of 2025, totally forgot what it actually means (along with the dirty words like "Webpack" and such).
 
-LESS is recommended as a styles preprocessor which is a bit weird and original.
+🚫 The linting and formating capabilities are quite cool in Umi — the default config provides you with predefined strict and opinionated set of rules which of course can be extended (or limited) but which would be a good foundation for any developer team from the get go. Not to say about the possiblity to start your CI/CD pipeline from the very beginning and enhance it further on.
 
-TypeScript support is quite obscure and weird. My WebStorm's language service got fed up with that from time to time (which probably can be attributed to lack of out-of-the-box support, but nevertheless).
+🔞 No React 19 support (yet?) with some expected blood in the browser console caused by corresponding deprecations. It's not a big deal, and I can imagine how harsh the potential migration may get, but still. If you're into shiny and new, that's probably not for you. But hey, what are you doing here then, on this chapter?!
 
-Next.js/Redwood/Angular level complexity justified by following streamlined team project development.
+💚 You can use Vue instead of React (via a dedicated configuration) even though the app becomes quite a contraption in this case. Vue is quite loved in the oriental web development tradition so it's not a surprise, and I'm really glad that, as opposed to many other metaframeworks, here you can have options, similar to the loved and only [Astro](https://astro.build).
 
-No React 19 support with some expected blood in the browser console caused by corresponding deprecations. 
+⏳ Not very fast build time, both during development and for production even though it uses the so called [MFSU](https://umijs.org/en-US/docs/guides/mfsu) (I assume it's something like Module Federation Speed Up) under the hood. You can [use esbuild](https://umijs.org/en-US/docs/guides/mfsu#two-build-tools) as an alternative to webpack though, or even [engage Mako](https://umijs.org/en-US/docs/api/config#mako) itself (which I hadn't figured out how to use TBH), so maybe there's a space for improvement here. Also using MFSU and its overheads on smaller projects is most probably leveled out by incremental build improvements for larger monorepo projects (which obviously get a lot of enablement via MFSU, as we saw).
 
-You can use Vue instead of React (via a dedicated configuration) even though the app becomes quite a contraption in this case.
+🎓 Lack of learning resources around is definitely can be a problem for Umi. The only comparatively meaningful article about that I found worse attention was [this LogRocket's writeup](https://blog.logrocket.com/rapid-enterprise-class-development-umijs/) from 2020 (which validates the age of existance of the framework but confirms the limited adoption in the English-speaking world).
 
-Not very fast build time, both during development and for production even though it uses the so called [MFSU](https://umijs.org/en-US/docs/guides/mfsu) (I assume it's something like Module Federation Speed Up) under the hood. You can [use esbuild](https://umijs.org/en-US/docs/guides/mfsu#two-build-tools) as an alternative to webpack though, or even [engage Mako](https://umijs.org/en-US/docs/api/config#mako) itself (which I hadn't figured out how to use TBH), so maybe there's a space for improvement here. Also using MFSU and its overheads on smaller projects is most probably leveled out by incremental build improvements for larger monorepo projects (which obviously get a lot of enablement via MFSU).
+❓ The ideal target market (or ideal customer profile, as the startup guys say) for Umi is probably the guys who use tools like Angular or Next.js in production for huge enterprise apps built by huge multi-squad teams. The capabilties of opinionated project control Umi ecosystem and plugins provide is exciting but probably a bit overwhelming for smaller teams and less demanding projects.
 
 ## Conclusions
 
-As Lao Tzu said,
-
-> A journey of a thousand Li begins with a single step
-
 So this was just an overview of the capabilities of this interesting tool used by lots of Chinese software industry monsters like Alibaba Cloud, Taobao, ByteDance, and many others.
 
-The official UmiJS repository provide [the whole bunch of examples](https://github.com/umijs/umi/tree/master/examples) of using UmiJS with multiple tools and packages (figured you could actually use it with Vite, or Remix, for instance).
+The official UmiJS repository provide [the whole bunch of examples](https://github.com/umijs/umi/tree/master/examples) of using UmiJS with multiple tools and packages (figured you could actually use it with Vite, or Remix, for instance). Check them out and decide for yourself. 
+
+Umi is definitely not a tool for everyone, but it's obviously a labour of love of many talented developers and I was really excited to dig dipper and get my hands dirty with that. Who know, maybe one day I'll need to cheat on my other favourite tools and come back to this dragon — I'll be ready and glad to proceed tinkering with that. Because as Lao Tzu said,
+
+> A journey of a thousand Li begins with a single step
 
 _The cover photo by [Thao LEE](https://unsplash.com/@h4x0r3) from Unsplash_
