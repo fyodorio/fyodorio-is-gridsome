@@ -5,7 +5,7 @@ published: true
 description: Experience the mysterious art of UmiJS ecosystem kung fu
 cover_image: https://res.cloudinary.com/fyodorio/image/upload/w_1000,h_420,c_fill,g_auto,q_auto,f_auto/v1742790799/kung-fu_gmyc0p.jpg
 tags: [umijs, react, software, webdev, experience]
-canonical_url: https://fyodor.io/umijs-the-shaolin-of-web-frameworks/
+canonical_url: https://fyodor.io/umi-js-the-shaolin-of-web-frameworks/
 series: false
 ---
 
