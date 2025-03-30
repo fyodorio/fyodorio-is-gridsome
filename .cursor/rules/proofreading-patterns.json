@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "patterns": [
+    {
+      "name": "em-dash",
+      "pattern": "—",
+      "message": "Use en-dash surrounded by spaces ( – ) instead of em-dash"
+    },
+    {
+      "name": "meta-framework-hyphen",
+      "pattern": "meta-framework",
+      "message": "Write 'metaframework' without a hyphen"
+    },
+    {
+      "name": "curly-apostrophe",
+      "pattern": "['']",
+      "message": "Use straight apostrophe (') instead of curly apostrophe"
+    }
+  ]
+} 
