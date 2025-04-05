@@ -1,1 +1,0 @@
-What Elon Musk has to do with xHTML vs html vs htmlx — picture of (x)HTML(x)
