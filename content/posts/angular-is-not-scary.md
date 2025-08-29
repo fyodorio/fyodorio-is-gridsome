@@ -73,4 +73,3 @@ I hadn't described all the features and possibilities you get with Angular, only
 In any case, pick the technology that makes you happy and allow yourself to find it by refusing to be biased.
  
 _Cover photo by [Deleece Cook](https://unsplash.com/@deleece) from Unsplash_
-

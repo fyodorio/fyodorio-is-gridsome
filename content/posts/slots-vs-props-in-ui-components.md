@@ -41,4 +41,4 @@ After working with different frameworks and problems related to using slots vs p
 
 That's it. I intentionally try to avoid detailed examples here as they're too specific to the technology of choice. But if you have come to this writeup you probably know what I'm talking about, or you can click on the framework-specific links above to expand your knowledge.
 
-Choose wisely, safe your intellectual power for business logic problems, and take care. 
+Choose wisely, safe your intellectual power for business logic problems, and take care.
