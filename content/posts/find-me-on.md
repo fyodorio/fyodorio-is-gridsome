@@ -13,7 +13,7 @@ Welcome to my links page! Here you can find all the resources where you can conn
 
 * [Email](mailto:ping@fyodor.io) — I ❤️ emails the most!
 * [LinkedIn](https://www.linkedin.com/in/fyodorio/) — I'm there for meaningful work-related connections mostly, don't like the vanity fair part though
-* [Bluesky](https://bsky.app/profile/fyodor.io) and [Mastodon](https://qoto.org/@fyodorio) — trying to get a glimpse of it yet (I used to [browse Twitter/X](https://x.com/fyodorio) but I fail to accept what it is now)  
+* [Bluesky](https://bsky.app/profile/fyodor.io) (and less often [Mastodon](https://qoto.org/@fyodorio)) — for some social interactions (I used to [browse Twitter/X](https://x.com/fyodorio) but I fail to accept what it is now)
 * [GitHub](https://github.com/fyodorio) — my public code is there mostly
 * [CodePen](https://codepen.io/fyodorio) — some CSS experiments, use as a minimalist sandbox here and there
 * [DEV](https://dev.to/fyodorio) — my main source of reading these days; I also repost some stuff there, and write some original texts too, for dedicated discussions mostly (I read [Hashnode](https://hashnode.com/@fyodorio) from time to time but it's too bland these days)

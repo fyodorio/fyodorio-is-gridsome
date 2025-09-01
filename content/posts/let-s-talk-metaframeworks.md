@@ -25,7 +25,7 @@ I want to dig deeper into this whole metaframeworks story, and that’s why I’
 
 The first is the open-source [Encyclopedia of Metaframeworks](https://github.com/fyodorio/awesome-metaframeworks) in the form of an awesome-list, familiar to everyone. I’ve gathered the tools and links accumulated in my closet throughout the years, and I invite you to check it out and [join the ride](https://github.com/fyodorio/awesome-metaframeworks/blob/main/CONTRIBUTING.md).
 
-The second is [the Metaframeworks Weekly newsletter](https://metaframe.works). This will be a regular, focused dive into the world of metaframeworks and the ecosystem around them — tools, news, releases, people, and so on. You’ll hardly find pompous odes to metaframeworks there; rather, you’ll find an unbiased view of the topic and objective, multifaceted opinions.
+The second is [the Metaframeworks Records newsletter](https://metaframe.works). This will be a regular, focused dive into the world of metaframeworks and the ecosystem around them — tools, news, releases, people, and so on. You’ll hardly find pompous odes to metaframeworks there; rather, you’ll find an unbiased view of the topic and objective, multifaceted opinions.
 
 All in all, I hope some of these resources might be of use to you, and maybe you’ll even be willing to contribute to them — whether by providing insightful submissions for the encyclopedia or by dropping me interesting relevant findings from around the web via [email](mailto:ping@fyodor.io).
 

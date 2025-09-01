@@ -13,7 +13,7 @@ Hi there 👋
 
 My name is Fyodor.
 
-I call myself _a software craftsman_. And this site is my _[digital shed](https://fyodor.io/turning-my-abandoned-blog-into-a-digital-shed/)_ (aka _digital garden_, but I'm not into plants). I love coding but often engage in various adjacent software-development-related activities, including management and systems architecture. My main areas of interest are developer tools, security, code parsing and compilation, and (obviously and unavoidably) AI. Currently I'm mostly seen building one of the greatest DevSecOps ecosystems around, while tinkering with some other side projects on the background, like [the Metaframeworks Weekly newsletter](https://metaframe.works).
+I call myself _a software craftsman_. And this site is my _[digital shed](https://fyodor.io/turning-my-abandoned-blog-into-a-digital-shed/)_ (aka _digital garden_, but I'm not into plants). I love coding but often engage in various adjacent software-development-related activities, including management and systems architecture. My main areas of interest are developer tools, security, code parsing and compilation, and (obviously and unavoidably) AI. Currently I'm mostly seen building one of the greatest DevSecOps ecosystems around, while tinkering with some other side projects on the background, like [the Metaframeworks Records newsletter](https://metaframe.works).
 
 <details>
 
