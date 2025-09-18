@@ -6,7 +6,10 @@ https://prismjs.com/download.html#themes=prism&languages=markup+css+clike+javasc
  * @author Lea Verou
  */
 
-// TODO make code blocks full-width, as images are
+/** Prevent code blocks overflowing the container causing havoc on smaller screens — F */
+pre {
+  max-width: 85vw;
+}
 
 code {
 	font-size: .85em;
