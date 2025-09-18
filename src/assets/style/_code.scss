@@ -10,6 +10,9 @@ https://prismjs.com/download.html#themes=prism&languages=markup+css+clike+javasc
 pre {
   max-width: 85vw;
 }
+li > pre {
+  max-width: 80vw;
+}
 
 code {
 	font-size: .85em;
