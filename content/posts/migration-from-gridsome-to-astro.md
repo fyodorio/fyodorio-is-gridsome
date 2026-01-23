@@ -93,7 +93,7 @@ I'm pretty sure there's a good reason for that and the problems most probably co
 
 ## Summary
 
-I did tag [the milestone for the source code](https://github.com/fyodorio/fyodorio-is-gridsome/releases/tag/state_freeze_for_astro_migration) I used for migration in my Gridsome version repository. And I did tag [the first results for Astro migration](https://github.com/fyodorio/fyodor.io/releases/tag/first_migration_iteration) in the corresponding output repository. You can compare and clearly see pros and cons of both, and some specific aspects and differences of these awesome technologies on a working blog example.
+I did tag [the milestone for the source code](https://github.com/fyodorio/fyodorio-is-gridsome/releases/tag/state_freeze_for_astro_migration) I used for migration in my Gridsome version repository. And I did tag [the first results for Astro migration](https://github.com/fyoset/fyodor.io/releases/tag/first_migration_iteration) in the corresponding output repository. You can compare and clearly see pros and cons of both, and some specific aspects and differences of these awesome technologies on a working blog example.
 
 I had decided to stay with Gridsome for now. The experiment was successful and pleasant, but it hadn't ended as "brilliantly" as I expected. There's still a lot to be done, the last 10% which, as usual, take 90% of time. I'm not a kind of tech geek which changes technologies each year. I had chosen Gridsome many years ago as it was very easy to start and just write a blog. Today I'd probably go with Astro. And I probably will, but later, and starting from scratch instead of trying to fit triangular shape into square container.
 

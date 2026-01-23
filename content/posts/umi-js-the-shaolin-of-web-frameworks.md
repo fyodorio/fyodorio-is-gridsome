@@ -67,7 +67,7 @@ So I have decided to play with UmiJS CLI and generate a project with a maximum s
 
 ### Prerequisites
 
-The code for the described project can be found [here](https://github.com/fyodorio/my-yummy-umi-thingy). Umi suggests (_and supports_) quite a bunch of build tools and package managers, but the default one is [`pnpm`](https://pnpm.io), for which you'll need to have [Node.js](https://nodejs.org/en) v18+ installed.
+The code for the described project can be found [here](https://github.com/fyoset/my-yummy-umi-thingy). Umi suggests (_and supports_) quite a bunch of build tools and package managers, but the default one is [`pnpm`](https://pnpm.io), for which you'll need to have [Node.js](https://nodejs.org/en) v18+ installed.
 
 ### Project scaffolding
 
@@ -185,7 +185,7 @@ I had tried my luck with pages. It looked a bit awkward and not very productive 
 
 ![Page generation process in CLI](https://res.cloudinary.com/fyodorio/image/upload/q_auto,f_auto/v1742885274/umijs/6-2_page_scaffolding_djyjh5.png)
 
-You can check my resulting awesome ["About" page](https://github.com/fyodorio/my-yummy-umi-thingy/blob/main/src/pages/About/index.tsx) with an inevitable counter (_fancy, I know_ 😎). Nothing too original but it's good to know that everything resides on its place right where you expect it to be.
+You can check my resulting awesome ["About" page](https://github.com/fyoset/my-yummy-umi-thingy/blob/main/src/pages/About/index.tsx) with an inevitable counter (_fancy, I know_ 😎). Nothing too original but it's good to know that everything resides on its place right where you expect it to be.
 
 ### Build and deploy
 

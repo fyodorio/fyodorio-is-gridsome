@@ -34,9 +34,9 @@ Another significant step towards the code review pleasure and excellence in code
 
 You will not be able to overestimate how well this stuff works. In any arguable situation, _you can refer to such written guidelines or particular paragraph of that, instead of yelling at each other and spoiling relationships inside of a team_.
 
-To make it more visual, I've shared [one of such guidelines](https://github.com/fyodorio/code-review-guidelines/blob/master/code_review_guidelines.md) I had compiled some time ago for one of my teams. It's kind of boring, but it's not too long and covers everything I'd mentioned. So it makes a perfect sense to read into it and probably find some ideas on what could be useful for your team in your repositories and concerning your team's traditions and mentality.
+To make it more visual, I've shared [one of such guidelines](https://github.com/fyoset/code-review-guidelines/blob/master/code_review_guidelines.md) I had compiled some time ago for one of my teams. It's kind of boring, but it's not too long and covers everything I'd mentioned. So it makes a perfect sense to read into it and probably find some ideas on what could be useful for your team in your repositories and concerning your team's traditions and mentality.
 
-As a bonus, I [had dropped](https://github.com/fyodorio/code-review-guidelines/blob/master/pull_request_template.md) a decent [PR template](https://help.github.com/en/github/building-a-strong-community/creating-a-pull-request-template-for-your-repository), which makes life a little better when you submit your updates and try not to forget anything.
+As a bonus, I [had dropped](https://github.com/fyoset/code-review-guidelines/blob/master/pull_request_template.md) a decent [PR template](https://help.github.com/en/github/building-a-strong-community/creating-a-pull-request-template-for-your-repository), which makes life a little better when you submit your updates and try not to forget anything.
 
 Please, let me know [in comments](https://dev.to/fyodorio/make-code-reviews-painless-29j3) what you think about this approach and what is your view on the problem of making Pull Request reviewing experience at least meaningful, if not exciting.
 
