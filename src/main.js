@@ -8,8 +8,21 @@ import 'prismjs/plugins/diff-highlight/prism-diff-highlight.min.css'
 // Import default layout so we don't need to import it to every page
 import DefaultLayout from '~/layouts/Default.vue'
 
+const config = require('../gridsome.config.js')
+
 // The Client API can be used here. Learn more: gridsome.org/docs/client-api
 export default function (Vue, { router, head, isClient }) {
+  // Structured data: site name for Google SERPs
+  head.script.push({
+    type: 'application/ld+json',
+    innerHTML: JSON.stringify({
+      '@context': 'https://schema.org',
+      '@type': 'WebSite',
+      name: config.siteName,
+      url: 'https://fyodor.io/'
+    })
+  })
+
   // Preload Google Fonts
   head.link.push({
     rel: 'preconnect',
