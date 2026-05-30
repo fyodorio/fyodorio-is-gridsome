@@ -1,21 +1,18 @@
 {
   "name": "fyodorio-is-gridsome",
-  "packageManager": "bun@1",
   "scripts": {
-    "start": "bun run develop",
-    "build": "node ./node_modules/@gridsome/cli/bin/gridsome.js build",
-    "develop": "node ./node_modules/@gridsome/cli/bin/gridsome.js develop",
-    "explore": "node ./node_modules/@gridsome/cli/bin/gridsome.js explore"
-  },
-  "overrides": {
-    "sharp": "0.34.5"
+    "start": "gridmix develop",
+    "build": "gridmix build",
+    "develop": "gridmix develop",
+    "explore": "gridmix explore"
   },
   "dependencies": {
-    "@gridsome/remark-prismjs": "0.5.0",
-    "@gridsome/source-filesystem": "0.6.2",
-    "@gridsome/transformer-remark": "0.6.4",
-    "gridsome": "0.7.23",
-    "sass": "1.43.5",
+    "@gridmix/remark-prismjs": "workspace:^",
+    "prismjs": "^1.30.0",
+    "@gridmix/source-filesystem": "workspace:^",
+    "@gridmix/transformer-remark": "workspace:^",
+    "gridmix": "workspace:^",
+    "sass": "^1.45.0",
     "sass-loader": "10.5.2",
     "sharp": "0.34.5"
   }
