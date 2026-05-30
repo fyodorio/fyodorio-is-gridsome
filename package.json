@@ -1,5 +1,6 @@
 {
   "name": "fyodorio-is-gridsome",
+  "private": true,
   "scripts": {
     "start": "gridmix develop",
     "build": "gridmix build",
@@ -7,13 +8,14 @@
     "explore": "gridmix explore"
   },
   "dependencies": {
-    "@gridmix/remark-prismjs": "workspace:^",
+    "gridmix": "link:../gridmix/gridmix/gridmix",
+    "@gridmix/remark-prismjs": "link:../gridmix/gridmix/packages/remark-prismjs",
+    "@gridmix/source-filesystem": "link:../gridmix/gridmix/packages/source-filesystem",
+    "@gridmix/transformer-remark": "link:../gridmix/gridmix/packages/transformer-remark",
     "prismjs": "^1.30.0",
-    "@gridmix/source-filesystem": "workspace:^",
-    "@gridmix/transformer-remark": "workspace:^",
-    "gridmix": "workspace:^",
     "sass": "^1.45.0",
     "sass-loader": "10.5.2",
     "sharp": "0.34.5"
-  }
+  },
+  "packageManager": "pnpm@11.2.2"
 }
