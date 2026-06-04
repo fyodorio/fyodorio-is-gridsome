@@ -1,3 +1,9 @@
 allowBuilds:
   '@parcel/watcher': true
+  core-js: false
+  esbuild: false
+  fsevents: false
   sharp: true
+minimumReleaseAgeExclude:
+  - '@gridmix/*'
+  - gridmix
