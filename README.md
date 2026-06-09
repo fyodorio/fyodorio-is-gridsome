@@ -5,12 +5,11 @@
 
 ## Getting started
 
-* Install Bun<sup>*</sup> (see [the official docs](https://bun.sh/docs/installation))
-* `bun install`
-* `bun run develop`
+* Install Node >=22.18.0
+* Enable Corepack
+* Run `pnpm install`
+* Run `pnpm develop`
 * Happy coding 🚀
-
-_<sup>*</sup>I use `bun` not because it's hip but because Gridsome is not maintained anymore and in the latest available version it requires older `Node.js` versions (`v14.x.x`) in order to make `npm` work, and these versions are poorly supported at Netlify, which I use for deployment. You can find some details [in this blog post](https://fyodor.io/how-bun-can-help-to-revive-a-gridsome-project/)._
 
 ## Folder structure
 

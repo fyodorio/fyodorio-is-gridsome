@@ -16,7 +16,7 @@ module.exports = {
   plugins: [
     {
       // Create posts from markdown files
-      use: '@gridsome/source-filesystem',
+      use: '@gridmix/source-filesystem',
       options: {
         typeName: 'Post',
         path: 'content/posts/*.md',
@@ -29,7 +29,7 @@ module.exports = {
         },
         remark: {
           plugins: [
-            '@gridsome/remark-prismjs'
+            '@gridmix/remark-prismjs'
           ]
         }
       }
@@ -43,8 +43,37 @@ module.exports = {
       externalLinksRel: ['nofollow', 'noopener', 'noreferrer'],
       anchorClassName: 'icon icon-link',
       plugins: [
-        '@gridsome/remark-prismjs'
+        '@gridmix/remark-prismjs'
       ]
+    }
+  },
+
+  chainWebpack (config) {
+    // sass@1.x ships sass.dart.js with dynamic require() calls that webpack
+    // can't statically extract. The warning is harmless (sass compiles fine)
+    // but the dev-server overlay blocks every page. Suppress it here, scoped
+    // to this project where implementation: require('sass') is the cause.
+    config.merge({
+      ignoreWarnings: [
+        {
+          module: /node_modules[/\\]sass[/\\]sass\.dart\.js/,
+          message: /Critical dependency/
+        }
+      ]
+    })
+  },
+
+  css: {
+    loaderOptions: {
+      scss: {
+        implementation: require('sass')
+      },
+      sass: {
+        implementation: require('sass'),
+        sassOptions: {
+          indentedSyntax: true
+        }
+      }
     }
   }
 }
