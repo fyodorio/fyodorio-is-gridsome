@@ -8,14 +8,17 @@
     "explore": "gridmix explore"
   },
   "dependencies": {
-    "gridmix": "0.8.0-alpha.0",
     "@gridmix/remark-prismjs": "0.6.0-alpha.0",
     "@gridmix/source-filesystem": "0.7.0-alpha.0",
     "@gridmix/transformer-remark": "0.7.0-alpha.0",
+    "gridmix": "0.8.0-alpha.0",
     "prismjs": "^1.30.0",
     "sass": "^1.45.0",
     "sass-loader": "10.5.2",
-    "sharp": "0.34.5"
+    "sharp": "0.34.5",
+    "vue": "2.7.16",
+    "vue-meta": "2.4.0",
+    "vue-router": "3.6.5"
   },
   "packageManager": "pnpm@11.2.2"
 }
